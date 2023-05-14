@@ -4,19 +4,52 @@
     border: none;
 }
 
-/* Main content styling here 
+/* Main content styling here */
 body {
     background-color: #282828;
     color: white;
-} */
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Logo styling here */
+#title {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 /* Banner styling here */
 
 /* Nav bar styling here (some shade of red similar to scarlet */
+.nav-bar {
+    background-color: firebrick;
+    text-align: center;
+    height: 20px;
+}
+
+.nav-bar>li {
+    display: inline;
+    margin: 1%;
+}
 
 /* Footer styling here (some shade of purple similar to violet */
+footer {
+    height: 100px;
+}
+
+.social-media {
+    background-color: blueviolet;
+    text-align: center;
+    height: 20px;
+}
+
+.social-media>li {
+    color: white;
+    display: inline;
+    margin: 1%;
+}
 
 /* Form styling here */
