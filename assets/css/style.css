@@ -1,4 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Main content styling here 
 body {
     background-color: #282828;
-    color: white
+    color: white;
+} */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Banner styling here */
+
+/* Nav bar styling here (some shade of red similar to scarlet */
+
+/* Footer styling here (some shade of purple similar to violet */
+
+/* Form styling here */
