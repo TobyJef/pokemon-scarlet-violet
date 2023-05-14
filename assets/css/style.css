@@ -6,8 +6,8 @@
 
 /* Main content styling here */
 body {
-    background-color: #282828;
-    color: white;
+    /* background-color: #282828;
+    color: white; */
 }
 
 body {
@@ -77,6 +77,9 @@ footer {
 
 /* Form styling here */
 
+.form-space {
+    background-color: teal;
+}
 
 /* Media screen sizes */
 /* @media screen and (max-width: 1200px) {
@@ -95,4 +98,3 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-} */
