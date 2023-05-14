@@ -19,7 +19,14 @@ body {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-left: 10px;
 }
+
+#title a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Banner styling here */
 
@@ -27,12 +34,20 @@ body {
 .nav-bar {
     background-color: firebrick;
     text-align: center;
-    height: 20px;
+    height: 30px;
+    letter-spacing: 3px;
+    padding-top: 10px;
 }
 
 .nav-bar>li {
     display: inline;
     margin: 1%;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white
 }
 
 /* Footer styling here (some shade of purple similar to violet */
@@ -43,13 +58,41 @@ footer {
 .social-media {
     background-color: blueviolet;
     text-align: center;
-    height: 20px;
+    height: 30px;
+    letter-spacing: 3px;
+    padding-top: 10px;
 }
 
 .social-media>li {
     color: white;
     display: inline;
     margin: 1%;
+    list-style-type: none;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white
 }
 
 /* Form styling here */
+
+
+/* Media screen sizes */
+/* @media screen and (max-width: 1200px) {
+    .footer {
+        width: 65%;
+        height: 1200px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .footer {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+} */
