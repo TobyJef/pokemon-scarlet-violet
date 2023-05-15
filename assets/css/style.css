@@ -59,7 +59,6 @@ header {
 /* Footer styling here (some shade of purple similar to violet */
 footer {
     height: 100px;
-
 }
 
 .social-media {
@@ -88,6 +87,7 @@ footer {
     height: 30px;
     letter-spacing: 3px;
     padding-top: 10px;
+    right: 20px;
 }
 
 .social-media-bottom>li {
