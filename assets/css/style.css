@@ -4,6 +4,7 @@
     border: none;
 }
 
+
 /* Main content styling here */
 body {
     /* background-color: #282828;
@@ -20,13 +21,18 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     padding-left: 10px;
+    padding: 50px;
+    background-color: #282828;
 }
 
-#title a {
+header a {
     text-decoration: none;
     color: white;
 }
 
+header {
+    background: #282828;
+}
 
 /* Banner styling here */
 
