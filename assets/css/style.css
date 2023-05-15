@@ -141,7 +141,20 @@ footer {
     border-radius: 5px;
 }
 
-#events {}
+#events {
+    padding-left: 25px;
+}
+
+#events>li {
+    list-style-type: none;
+}
+
+
+#dlc-trailer {
+    position: relative;
+    left: 700px;
+    bottom: 250px;
+}
 
 /* Media screen sizes */
 /* @media screen and (max-width: 1200px) {
