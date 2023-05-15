@@ -82,6 +82,29 @@ footer {
     color: white
 }
 
+.social-media-bottom {
+    background-color: blueviolet;
+    text-align: center;
+    height: 30px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+.social-media-bottom>li {
+    color: white;
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
+
+.social-media-bottom a {
+    text-decoration: none;
+    color: white
+}
+
+
+/* Newsletter styling here */
+
 /* Form styling here */
 
 .form-space {
@@ -117,6 +140,8 @@ footer {
     border: 2px solid black;
     border-radius: 5px;
 }
+
+#events {}
 
 /* Media screen sizes */
 /* @media screen and (max-width: 1200px) {
