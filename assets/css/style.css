@@ -103,6 +103,12 @@ footer {
 }
 
 
+/* Homepage styling here */
+
+#gameplay-trailer {
+    padding-left: 350px;
+}
+
 /* Newsletter styling here */
 
 /* Form styling here */
@@ -152,8 +158,8 @@ footer {
 
 #dlc-trailer {
     position: relative;
-    left: 700px;
-    bottom: 250px;
+    left: 650px;
+    bottom: 450px;
 }
 
 /* Media screen sizes */
