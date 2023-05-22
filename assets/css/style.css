@@ -6,11 +6,14 @@
 
 
 /* Main content styling here */
+
+/* Body background colour */
 body {
-    /* background-color: #282828;
-    color: white; */
+    background-color: rgba(213, 216, 218, 0.8);
+
 }
 
+/* Font */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
