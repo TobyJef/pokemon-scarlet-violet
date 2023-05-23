@@ -30,17 +30,30 @@
     </header>
     <div class="form-space">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="sign-up">
-            <h1>Receive our Newsletter!</h1>
+            <h1><strong>Receive our Newsletter!</strong></h1>
             <p>Get our weekly newsletter delivered fresh to your inbox with our round-up on all the latest news,
                 raids and tips on Pokemon Scarlet and Pokemon Violet</p>
-            <!-- <label for="tname">Trainer Name</label>
-            <input type="text" id="tname" name="trainer_name" required> -->
-            <label for="email">
-                <h4>Email Address</h4>
-            </label>
-            <input type="email" id="email" name="email_address" required class="text-input">
-            <input class="letsgo-button" type="submit" value="Let's Go!">
+            <fieldset>
+                <legend><strong>I Choose You</strong></legend>
+                <label for="tname">
+                    <h4>Trainer ID</h4>
+                </label>
+                <input type="text" id="tname" name="trainer_name" required class="text-input" placeholder="Trainer ID">
+                <label for="email">
+                    <h4>Email Address</h4>
+                </label>
+                <input type="email" id="email" name="email_address" required class="text-input"
+                    placeholder="Email Address">
+                <label for="scarlet">Scarlet</label>
+                <input type="radio" id="scarlet" name="version_choice" value="scarlet" required>
+                <label for="violet">Violet</label>
+                <input type="radio" id="violet" name="version_choice" value="violet">
+                <label for="both">Both</label>
+                <input type="radio" id="both" name="version_choice" value="both">
+                <button type="submit" class="letsgo-button" type="submit"><strong>Let's Go!</strong></button>
+            </fieldset>
         </form>
+
 
     </div>
     <article>

@@ -16,6 +16,7 @@ body {
 /* Font */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large,
 }
 
 /* Logo styling here */
@@ -49,9 +50,9 @@ header {
 .nav-bar {
     background-color: firebrick;
     text-align: center;
-    height: 30px;
-    letter-spacing: 3px;
-    padding-top: 10px;
+    height: 35px;
+    letter-spacing: 5px;
+    padding-top: 15px;
 }
 
 .nav-bar>li {
@@ -133,7 +134,7 @@ footer {
 .form-space {
     background-color: teal;
     width: 100%;
-    height: 150px;
+    height: 250px;
 }
 
 .sign-up {
@@ -150,20 +151,32 @@ footer {
 
 .text-input {
     color: #282828;
-    width: 15%;
-    height: 20px;
+    width: 20%;
+    height: 25px;
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .letsgo-button {
     color: #282828;
-    width: 5%;
+    width: 7%;
     height: 24px;
     border: 2px solid black;
     border-radius: 5px;
 }
 
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 1.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 1.625em;
+    border: 3px solid black;
+}
+
+/* Events */
 #events {
     padding-left: 25px;
 }
