@@ -131,27 +131,42 @@ footer {
 
 /* Form styling here */
 
+/* Background */
 .form-space {
     background-color: teal;
     width: 100%;
-    height: 250px;
+    height: 290px;
 }
 
+/* Sign up form text */
 .sign-up {
     padding: 25px;
 }
 
 .sign-up>h1 {
     margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.sign-up>h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
 }
 
 .sign-up>p {
     margin-bottom: 10px;
+    text-align: center;
+    font-size: large;
+    color: white;
 }
 
+/* Sign up Form and Buttons */
 .text-input {
     color: #282828;
-    width: 20%;
+    width: 50%;
     height: 25px;
     border: 2px solid black;
     border-radius: 5px;
@@ -163,6 +178,7 @@ footer {
     height: 24px;
     border: 2px solid black;
     border-radius: 5px;
+    margin-left: 570px;
 }
 
 fieldset {
@@ -174,6 +190,12 @@ fieldset {
     padding-inline-end: 0.75em;
     padding-block-end: 1.625em;
     border: 3px solid black;
+    font-weight: bold;
+}
+
+.newsletter-form {
+    display: inline-block;
+    width: 33%;
 }
 
 /* Events */
