@@ -66,53 +66,6 @@ header {
     color: white
 }
 
-/* Footer styling here (some shade of purple similar to violet */
-footer {
-    height: 100px;
-}
-
-.social-media {
-    background-color: blueviolet;
-    text-align: center;
-    height: 30px;
-    letter-spacing: 3px;
-    padding-top: 10px;
-}
-
-.social-media>li {
-    color: white;
-    display: inline;
-    margin: 1%;
-    list-style-type: none;
-}
-
-.social-media a {
-    text-decoration: none;
-    color: white
-}
-
-.social-media-bottom {
-    background-color: blueviolet;
-    text-align: center;
-    height: 30px;
-    letter-spacing: 3px;
-    padding-top: 10px;
-    right: 20px;
-}
-
-.social-media-bottom>li {
-    color: white;
-    display: inline;
-    margin: 1%;
-    list-style-type: none;
-}
-
-.social-media-bottom a {
-    text-decoration: none;
-    color: white
-}
-
-
 /* Homepage styling here */
 
 #gameplay-trailer {
@@ -124,7 +77,7 @@ footer {
 /* #game-colours {
     height: 300px;
     width: 100%;
-    background: url(../images/scarlet-violet-colours.jpeg);
+    background: url(../images/scarlet-violet-colours.webp);
 } */
 
 /* Newsletter styling here */
@@ -207,7 +160,7 @@ fieldset {
     list-style-type: none;
 }
 
-/* Events Table */
+/* Raid Events Table */
 
 table {
     width: 70%;
@@ -230,11 +183,61 @@ td {
     padding: 5px;
 }
 
-/* #dlc-trailer {
+/* #dlc-banner {
+    width: 90%;
+} */
+
+#dlc-trailer {
     position: relative;
     left: 650px;
-    bottom: 450px;
-} */
+}
+
+
+/* Footer styling here (some shade of purple similar to violet) */
+footer {
+    height: 100px;
+}
+
+.social-media {
+    background-color: blueviolet;
+    text-align: center;
+    height: 30px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+.social-media>li {
+    color: white;
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white
+}
+
+.social-media-bottom {
+    background-color: blueviolet;
+    text-align: center;
+    height: 30px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    right: 20px;
+}
+
+.social-media-bottom>li {
+    color: white;
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
+
+.social-media-bottom a {
+    text-decoration: none;
+    color: white
+}
 
 /* Media screen sizes */
 /* @media screen and (max-width: 1200px) {
