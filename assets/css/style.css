@@ -78,14 +78,20 @@ header {
 
 /* Version excluisve image */
 
-.exclusive-pokemon {
-    width: 500px;
-    display: inline-block;
+#exclusive-pokemon {
+    height: 600px;
 }
 
-.exclusive-image {
+#exclusive-text {
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+}
+
+#exclusive-image {
+    padding-top: 30px;
+    width: 45%;
     float: right;
-    display: inline-block;
 }
 
 /* Review page styling here */
