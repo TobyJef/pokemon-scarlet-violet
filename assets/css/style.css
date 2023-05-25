@@ -40,20 +40,13 @@ header {
 
 /* Homepage styling here */
 
-#gameplay-trailer {
-    padding-left: 350px;
-}
-
-/* header image */
-
+/* Banner styling here */
 #title-image {
     height: 510px;
     width: 100%;
     background: url('../images/pokemon-titles.webp') no-repeat;
     background-size: cover;
 }
-
-/* Banner styling here */
 
 /* Nav bar styling here (some shade of red similar to scarlet */
 .nav-bar {
@@ -93,6 +86,11 @@ header {
     padding-top: 30px;
     width: 45%;
     float: right;
+}
+
+/* Home page video */
+#gameplay-trailer {
+    padding-left: 590px;
 }
 
 /* Review page styling here */
