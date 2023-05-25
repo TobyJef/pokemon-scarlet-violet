@@ -38,12 +38,19 @@ header {
     background: #282828;
 }
 
+/* Homepage styling here */
+
+#gameplay-trailer {
+    padding-left: 350px;
+}
+
 /* header image */
 
 #title-image {
-    height: 300px;
+    height: 510px;
     width: 100%;
-    background: url('../images/pokemon-titles.webp');
+    background: url('../images/pokemon-titles.webp') no-repeat;
+    background-size: cover;
 }
 
 /* Banner styling here */
@@ -66,12 +73,6 @@ header {
 .nav-bar a {
     text-decoration: none;
     color: white
-}
-
-/* Homepage styling here */
-
-#gameplay-trailer {
-    padding-left: 350px;
 }
 
 /* New Features Page styling here */
