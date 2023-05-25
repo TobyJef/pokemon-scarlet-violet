@@ -41,7 +41,7 @@ header {
 /* header image */
 
 #title-image {
-    height: 600px;
+    height: 300px;
     width: 100%;
     background: url('../images/pokemon-titles.webp');
 }
