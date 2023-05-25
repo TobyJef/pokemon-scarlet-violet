@@ -40,8 +40,10 @@ header {
 
 /* header image */
 
-#pokeball-header {
-    height: auto;
+#title-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pokemon-titles.webp');
 }
 
 /* Banner styling here */
@@ -70,6 +72,20 @@ header {
 
 #gameplay-trailer {
     padding-left: 350px;
+}
+
+/* New Features Page styling here */
+
+/* Version excluisve image */
+
+.exclusive-pokemon {
+    width: 500px;
+    display: inline-block;
+}
+
+.exclusive-image {
+    float: right;
+    display: inline-block;
 }
 
 /* Review page styling here */
