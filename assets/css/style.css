@@ -189,6 +189,7 @@ header {
     height: 25px;
     border: 2px solid black;
     border-radius: 5px;
+    position: relative;
 }
 
 .letsgo-button {
@@ -198,6 +199,13 @@ header {
     border: 2px solid black;
     border-radius: 5px;
     margin-left: 570px;
+    top: 15px;
+    position: relative;
+}
+
+label h4 {
+    position: relative;
+    left: 10px;
 }
 
 fieldset {
@@ -283,6 +291,7 @@ td {
     background-size: cover;
     position: relative;
     bottom: 100px;
+    top: -1px;
 }
 
 
