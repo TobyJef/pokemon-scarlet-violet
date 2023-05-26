@@ -118,26 +118,36 @@ header {
 
 /* Version excluisve image */
 
-#exclusive-pokemon {
+.exclusive-box {
+    width: 500px;
     height: 600px;
 }
 
-#exclusive-text {
-    padding-top: 30px;
-    width: 45%;
-    float: left;
+
+#exclusive-text-middle {
+    position: relative;
+    left: 50px;
+    top: 30px;
+    width: 50%;
+}
+
+#exclusive-text-bottom {
+    position: relative;
+    left: 50px;
+    top: -280px;
+    width: 50%;
 }
 
 #exclusive-image {
     background: url('../images/version-exclusives.webp') no-repeat;
-    object-fit: cover;
     height: 650px;
-    padding-top: 30px;
-    width: 45%;
+    width: 35%;
     float: right;
+    position: relative;
+    bottom: 600px;
 }
 
-
+*/
 /* Review page styling here */
 
 /* #game-colours {
