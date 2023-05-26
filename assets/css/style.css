@@ -48,6 +48,11 @@ header {
     background-size: cover;
 }
 
+/* Home page video */
+#gameplay-trailer {
+    padding-left: 590px;
+}
+
 /* Nav bar styling here (some shade of red similar to scarlet */
 .nav-bar {
     background-color: firebrick;
@@ -83,15 +88,14 @@ header {
 }
 
 #exclusive-image {
+    background: url('../images/version-exclusives-1.webp') no-repeat;
+    object-fit: cover;
+    height: 600px;
     padding-top: 30px;
     width: 45%;
     float: right;
 }
 
-/* Home page video */
-#gameplay-trailer {
-    padding-left: 590px;
-}
 
 /* Review page styling here */
 
