@@ -129,9 +129,9 @@ header {
 }
 
 #exclusive-image {
-    background: url('../images/version-exclusives-1.webp') no-repeat;
+    background: url('../images/version-exclusives.webp') no-repeat;
     object-fit: cover;
-    height: 600px;
+    height: 650px;
     padding-top: 30px;
     width: 45%;
     float: right;
@@ -150,7 +150,6 @@ header {
 
 /* Form styling here */
 
-/* Background */
 .form-space {
     background-color: teal;
     width: 100%;
@@ -183,6 +182,7 @@ header {
 }
 
 /* Sign up Form and Buttons */
+
 .text-input {
     color: #282828;
     width: 50%;
@@ -296,9 +296,8 @@ td {
     top: -1px;
 }
 
-
-
 /* Footer styling here (some shade of purple similar to violet) */
+
 footer {
     height: 90px;
     background-color: blueviolet;
