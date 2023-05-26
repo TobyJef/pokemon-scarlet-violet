@@ -279,11 +279,12 @@ td {
 #dlc-banner {
     background: url('../images/scarlet-violet-dlc.webp') no-repeat;
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-size: cover;
     position: relative;
-    padding-top: 50px;
+    bottom: 100px;
 }
+
 
 
 /* Footer styling here (some shade of purple similar to violet) */
