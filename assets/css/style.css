@@ -228,8 +228,14 @@ fieldset {
 
 /* Raid Events Table */
 
+#raid-table {
+    text-align: center;
+}
+
 table {
     width: 70%;
+    margin: 0 auto;
+    background-color: white;
 }
 
 tr {
@@ -246,16 +252,37 @@ td {
 th,
 td {
     border: 1px solid black;
-    padding: 5px;
+    padding: 7px;
 }
 
-/* #dlc-banner {
-    width: 90%;
-} */
+
+/* DLC Banner and Youtube Video Link */
+
+.review-box {
+    height: 350px;
+    width: 500px;
+
+}
+
+#dlc-overview {
+    position: relative;
+    left: 50px;
+    top: 70px;
+}
 
 #dlc-trailer {
     position: relative;
-    left: 650px;
+    left: 750px;
+    bottom: 180px;
+}
+
+#dlc-banner {
+    background: url('../images/scarlet-violet-dlc.webp') no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    padding-top: 50px;
 }
 
 
