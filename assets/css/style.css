@@ -118,6 +118,11 @@ header {
 
 /* Version excluisve image */
 
+.top-text {
+    position: relative;
+    margin: 20px;
+}
+
 .exclusive-box {
     width: 500px;
     height: 600px;
@@ -127,15 +132,17 @@ header {
 #exclusive-text-middle {
     position: relative;
     left: 50px;
-    top: 30px;
+    top: 50px;
     width: 50%;
+    font-size: large;
 }
 
 #exclusive-text-bottom {
     position: relative;
     left: 50px;
-    top: -280px;
+    top: -185px;
     width: 50%;
+    font-size: large;
 }
 
 #exclusive-image {
@@ -144,10 +151,16 @@ header {
     width: 35%;
     float: right;
     position: relative;
-    bottom: 600px;
+    bottom: 525px;
 }
 
-*/
+.under-text {
+    position: relative;
+    font-size: large;
+    bottom: 350px;
+    margin: 20px;
+}
+
 /* Review page styling here */
 
 /* #game-colours {
