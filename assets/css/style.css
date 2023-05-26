@@ -11,12 +11,16 @@
 body {
     background-color: rgba(213, 216, 218, 0.8);
 
+
 }
 
 /* Font */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large,
+}
+
+section p {
+    font-size: large;
 }
 
 /* Logo styling here */
@@ -38,21 +42,6 @@ header {
     background: #282828;
 }
 
-/* Homepage styling here */
-
-/* Banner styling here */
-#title-image {
-    height: 510px;
-    width: 100%;
-    background: url('../images/pokemon-titles.webp') no-repeat;
-    background-size: cover;
-}
-
-/* Home page video */
-#gameplay-trailer {
-    padding-left: 590px;
-}
-
 /* Nav bar styling here (some shade of red similar to scarlet */
 .nav-bar {
     background-color: firebrick;
@@ -70,8 +59,57 @@ header {
 
 .nav-bar a {
     text-decoration: none;
-    color: white
+    color: white;
+    font-size: large;
 }
+
+/* Homepage styling here */
+
+/* Banner styling here */
+#title-image {
+    height: 510px;
+    width: 100%;
+    background: url('../images/pokemon-titles.webp') no-repeat;
+    background-size: cover;
+}
+
+/* Home page main text */
+
+.head-box {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+
+}
+
+.head-box h1 {
+    font-size: xx-large;
+}
+
+.head-box p {
+    font-size: larger
+}
+
+#game-overview {
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.home-box {
+    height: 350px;
+    width: 500px;
+
+}
+
+/* Home page video */
+#gameplay-trailer {
+    position: relative;
+    left: 800px;
+    bottom: 180px;
+}
+
 
 /* New Features Page styling here */
 
@@ -220,7 +258,8 @@ td {
 
 /* Footer styling here (some shade of purple similar to violet) */
 footer {
-    height: 100px;
+    height: 90px;
+    background-color: blueviolet;
 }
 
 .social-media {
@@ -281,3 +320,4 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+/**/
