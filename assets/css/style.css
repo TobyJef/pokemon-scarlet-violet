@@ -190,6 +190,8 @@ header {
     border: 2px solid black;
     border-radius: 5px;
     position: relative;
+    left: 35px;
+    top: 5px;
 }
 
 .letsgo-button {
@@ -205,13 +207,13 @@ header {
 
 label h4 {
     position: relative;
-    left: 10px;
+    left: 35px;
 }
 
 fieldset {
     display: block;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
+    margin-inline-start: 35px;
+    margin-inline-end: 35px;
     padding-block-start: 0.35em;
     padding-inline-start: 1.75em;
     padding-inline-end: 0.75em;
