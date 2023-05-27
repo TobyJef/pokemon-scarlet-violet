@@ -9,7 +9,7 @@
 
 /* Body background colour */
 body {
-    background-color: rgba(213, 216, 218, 0.8);
+    background-color: rgba(224, 237, 245, 0.8);
 
 
 }
@@ -126,7 +126,6 @@ header {
     top: 10px;
 }
 
-
 /* Version excluisve image */
 
 .top-text {
@@ -176,6 +175,38 @@ header {
 
 
 /* Newsletter styling here */
+
+/* In game screen Chesnaught Raid image */
+#chesnaught-raid {
+    background: url('../images/chesnaught-raid.webp') no-repeat;
+    height: 400px;
+    position: relative;
+    left: 400px;
+    top: 15px;
+}
+
+/* In game creenshot of Appletun used for the Chesnaught raid */
+#appletun {
+    background: url('../images/appletun-build.webp') no-repeat;
+    height: 400px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+/* In game screenshot of the caught Chesnaught the Unrivaled */
+#chesnaught-unrivaled {
+    background: url('../images/chesnaught-unrivaled.webp') no-repeat;
+    height: 400px;
+    position: relative;
+    left: 800px;
+    bottom: 385px;
+}
+
+.whats-next {
+    position: relative;
+    bottom: 350px;
+}
 
 /* Form styling here */
 
@@ -269,6 +300,8 @@ fieldset {
 
 #raid-table {
     text-align: center;
+    position: relative;
+    bottom: 300px;
 }
 
 table {
@@ -300,19 +333,18 @@ td {
 .review-box {
     height: 350px;
     width: 500px;
-
 }
 
 #dlc-overview {
     position: relative;
     left: 50px;
-    top: 70px;
+    bottom: 200px;
 }
 
 #dlc-trailer {
     position: relative;
     left: 750px;
-    bottom: 180px;
+    bottom: 450px;
 }
 
 #dlc-banner {
