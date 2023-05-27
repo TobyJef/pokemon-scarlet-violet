@@ -307,7 +307,7 @@ fieldset {
 table {
     width: 70%;
     margin: 0 auto;
-    background-color: white;
+    background-color: #f2f2f9;
 }
 
 tr {
@@ -353,8 +353,7 @@ td {
     height: 800px;
     background-size: cover;
     position: relative;
-    bottom: 100px;
-    top: -1px;
+    bottom: 150px;
 }
 
 /* Footer styling here (some shade of purple similar to violet) */
@@ -404,8 +403,6 @@ footer {
     text-decoration: none;
     color: white
 }
-
-.footer-base {}
 
 /* Media screen sizes */
 /* @media screen and (max-width: 1200px) {
