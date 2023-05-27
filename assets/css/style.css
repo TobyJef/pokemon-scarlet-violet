@@ -367,6 +367,8 @@ footer {
     color: white
 }
 
+.footer-base {}
+
 /* Media screen sizes */
 /* @media screen and (max-width: 1200px) {
     .footer {
