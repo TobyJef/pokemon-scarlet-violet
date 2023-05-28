@@ -192,24 +192,31 @@ header {
 
 #koraidon {
     background: url('../images/koraidon-mount.webp') no-repeat;
-    height: 360px;
+    height: 285px;
     left: 655px;
     position: relative;
-    bottom: 620px;
+    top: -340px;
+    background-size: cover;
 }
 
 .review-box {
     position: relative;
-    width: 500px;
-    height: 560px;
-    left: 15px;
+    height: 325px;
+    left: 50px;
     top: 20px;
 }
 
 .under-image-text {
     position: relative;
-    width: 600px;
-    height: 100px;
+    width: 1372.5px;
+    top: 100px;
+    left: 30px;
+}
+
+#starter-pokemon {
+    background: url('../images/paldea-starters.webp') no-repeat;
+    position: relative;
+    height: 400px;
 }
 
 .review-content {
@@ -218,7 +225,6 @@ header {
     left: 5px;
 }
 
-#starter-pokemon {}
 
 /* Newsletter styling here */
 
@@ -331,7 +337,7 @@ label h4 {
 
 
 /* Base code for Table CSS used from HTML Essentials HTML Tables Challenge */
-/* Changed some elements of code to fit style choices */
+
 fieldset {
     display: block;
     margin-inline-start: 35px;
@@ -359,6 +365,7 @@ fieldset {
 }
 
 /* Raid Events Table */
+/* Events table styling used from Code Institute HTML Essentials Tables Challenge */
 
 #raid-table {
     text-align: center;
@@ -389,7 +396,6 @@ td {
     padding: 7px;
 }
 
-
 /* DLC Banner and Youtube Video Link */
 
 /* Youtube Video */
@@ -418,10 +424,6 @@ td {
     position: relative;
     top: -10px;
 }
-
-/* .review-banner {
-    width: 500px;
-} */
 
 /* Footer styling here (some shade of purple similar to violet) */
 
