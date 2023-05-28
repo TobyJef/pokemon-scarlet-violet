@@ -4,14 +4,17 @@
     border: none;
 }
 
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
 /* Main content styling here */
 
 /* Body background colour */
 body {
     background-color: rgba(224, 237, 245, 0.8);
-
-
+    min-height: 100vh;
 }
 
 /* Font */
@@ -77,10 +80,9 @@ header {
 
 .head-box {
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 33px;
     margin-right: 20px;
     height: 100px;
-
 }
 
 .head-box h1 {
@@ -93,8 +95,8 @@ header {
 
 #game-overview {
     position: relative;
-    left: 50px;
-    top: 30px;
+    left: 40px;
+    top: 10px;
 }
 
 .home-box {
@@ -106,7 +108,7 @@ header {
 /* Home page video */
 #gameplay-trailer {
     position: relative;
-    left: 800px;
+    left: 715px;
     bottom: 180px;
 }
 
@@ -124,6 +126,7 @@ header {
     position: relative;
     left: 400px;
     top: 10px;
+    background-size: 700px;
 }
 
 /* Version excluisve image */
@@ -131,6 +134,7 @@ header {
 .top-text {
     position: relative;
     margin: 20px;
+    width: 1325.6px;
 }
 
 .exclusive-box {
@@ -138,10 +142,9 @@ header {
     height: 600px;
 }
 
-
 #exclusive-text-middle {
     position: relative;
-    left: 50px;
+    left: 30px;
     top: 50px;
     width: 50%;
     font-size: large;
@@ -149,8 +152,8 @@ header {
 
 #exclusive-text-bottom {
     position: relative;
-    left: 50px;
-    top: -185px;
+    left: 30px;
+    top: -200px;
     width: 50%;
     font-size: large;
 }
@@ -167,9 +170,12 @@ header {
 .under-text {
     position: relative;
     font-size: large;
-    bottom: 350px;
-    margin: 20px;
+    bottom: 345px;
+    left: 30px;
+    height: 280px;
+    width: 1325.6px;
 }
+
 
 /* Review page styling here */
 
@@ -185,7 +191,7 @@ header {
     height: 360px;
     left: 655px;
     position: relative;
-    bottom: 525px;
+    bottom: 620px;
 }
 
 .review-box {
@@ -202,39 +208,15 @@ header {
     height: 100px;
 }
 
+.review-content {
+    width: 95%;
+    position: relative;
+    left: 5px;
+}
+
+#starter-pokemon {}
+
 /* Newsletter styling here */
-
-/* In game screen Chesnaught Raid image */
-#chesnaught-raid {
-    background: url('../images/chesnaught-raid.webp') no-repeat;
-    height: 400px;
-    position: relative;
-    left: 400px;
-    top: 15px;
-}
-
-/* In game screenshot of Appletun used for the Chesnaught raid */
-#appletun {
-    background: url('../images/appletun-build.webp') no-repeat;
-    height: 400px;
-    position: relative;
-    top: 35px;
-    left: 50px;
-}
-
-/* In game screenshot of the caught Chesnaught the Unrivaled */
-#chesnaught-unrivaled {
-    background: url('../images/chesnaught-unrivaled.webp') no-repeat;
-    height: 400px;
-    position: relative;
-    left: 800px;
-    bottom: 365px;
-}
-
-.whats-next {
-    position: relative;
-    bottom: 350px;
-}
 
 /* Form styling here */
 
@@ -298,6 +280,54 @@ label h4 {
     left: 35px;
 }
 
+/* Top page paragraphs */
+.ongoing-event {
+    width: 95%
+}
+
+.strategy {
+    width: 95%;
+    max-width: 100%;
+    height: 1000px;
+}
+
+/* In game screen Chesnaught Raid image */
+#chesnaught-raid {
+    background: url('../images/chesnaught-raid.webp') no-repeat;
+    height: 400px;
+    position: relative;
+    left: 350px;
+    top: 25px;
+}
+
+/* In game screenshot of Appletun used for the Chesnaught raid */
+#appletun {
+    background: url('../images/appletun-build.webp') no-repeat;
+    height: 400px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    max-width: 50%
+}
+
+/* In game screenshot of the caught Chesnaught the Unrivaled */
+#chesnaught-unrivaled {
+    background: url('../images/chesnaught-unrivaled.webp') no-repeat;
+    height: 400px;
+    position: relative;
+    left: 725px;
+    bottom: 365px;
+    max-width: 50%;
+}
+
+.whats-next {
+    position: relative;
+    bottom: 350px;
+}
+
+
+/* Base code for Table CSS used from HTML Essentials HTML Tables Challenge */
+/* Changed some elements of code to fit style choices */
 fieldset {
     display: block;
     margin-inline-start: 35px;
@@ -358,6 +388,7 @@ td {
 
 /* DLC Banner and Youtube Video Link */
 
+/* Youtube Video */
 .review-box {
     height: 350px;
     width: 500px;
@@ -366,23 +397,28 @@ td {
 #dlc-overview {
     position: relative;
     left: 50px;
-    bottom: 200px;
+    top: -200px;
 }
 
 #dlc-trailer {
     position: relative;
-    left: 750px;
-    bottom: 450px;
+    left: 700px;
+    top: -400px;
 }
 
+/* Banner at bottom of page */
 #dlc-banner {
     background: url('../images/scarlet-violet-dlc.webp') no-repeat;
     width: 100%;
     height: 800px;
     background-size: cover;
     position: relative;
-    bottom: 150px;
+    top: -10px;
 }
+
+/* .review-banner {
+    width: 500px;
+} */
 
 /* Footer styling here (some shade of purple similar to violet) */
 
