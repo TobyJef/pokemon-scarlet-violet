@@ -184,25 +184,27 @@ header {
 /* Review page styling here */
 
 .page-top-text {
-    padding: 15px;
+    padding: 25px;
     width: 95%;
 }
 
-/* Koraidon Image */
+/* Image of Kiraidon and Miraidon */
 
-#koraidon {
-    background: url('../images/koraidon-mount.webp') no-repeat;
+#koraidon-miraidon {
+    background: url('../images/box-legendaries.webp') no-repeat;
     height: 285px;
-    left: 655px;
+    left: 800px;
     position: relative;
-    top: -340px;
+    top: -275px;
     background-size: cover;
+    width: 500px;
+}
 }
 
 .review-box {
     position: relative;
     height: 325px;
-    left: 50px;
+    left: 65px;
     top: 20px;
 }
 
@@ -213,10 +215,15 @@ header {
     left: 30px;
 }
 
+/* Starter Pokemon Image */
+/* Screenshot of the three starter pokemon,
+from the embedded youtube video in the home page  */
 #starter-pokemon {
     background: url('../images/paldea-starters.webp') no-repeat;
     position: relative;
     height: 400px;
+    top: 150px;
+    left: 250px;
 }
 
 .review-content {
