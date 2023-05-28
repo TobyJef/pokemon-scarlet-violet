@@ -394,7 +394,6 @@ td {
 
 /* Youtube Video */
 .review-box {
-    height: 350px;
     width: 500px;
 }
 
@@ -407,7 +406,7 @@ td {
 #dlc-trailer {
     position: relative;
     left: 700px;
-    top: -400px;
+    top: -445px;
 }
 
 /* Banner at bottom of page */
