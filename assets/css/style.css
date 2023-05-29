@@ -4,25 +4,22 @@
     border: none;
 }
 
-html {
+/* html {
     overflow-y: scroll;
     overflow-x: hidden;
-}
+} */
 
 /* Main content styling here */
+/* Body background colour and Font Family */
 
-/* Body background colour */
 body {
     background-color: rgba(224, 237, 245, 0.8);
-    min-height: 100vh;
-}
-
-/* Font */
-body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Font size */
 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
 
@@ -35,7 +32,7 @@ li {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     padding: 50px;
     background-color: #282828;
 }
@@ -78,15 +75,14 @@ header {
     width: 100%;
     background: url('../images/pokemon-titles.webp') no-repeat;
     background-size: cover;
+
 }
 
 /* Home page main text */
 
 .head-box {
-    margin-top: 50px;
-    margin-left: 33px;
-    margin-right: 20px;
     height: 100px;
+    width: 100%
 }
 
 .head-box h1 {
@@ -98,9 +94,10 @@ header {
 }
 
 #game-overview {
-    position: relative;
-    left: 40px;
-    top: 10px;
+    width: 92%;
+    margin: 0 auto;
+    word-spacing: 0.2rem;
+
 }
 
 .home-box {
@@ -110,11 +107,10 @@ header {
 
 /* Home page video */
 #gameplay-trailer {
-    position: relative;
-    left: 715px;
-    bottom: 180px;
     width: 650px;
     height: 350px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #gameplay-trailer iframe {
@@ -469,6 +465,7 @@ td {
 footer {
     height: 90px;
     background-color: blueviolet;
+    width: 100%;
 }
 
 .social-media {
@@ -512,74 +509,84 @@ footer {
     color: white
 }
 
+/* Media Screen Sizes for up to 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        background-color: red;
+    }
+
+    #title-image {
+        width: 100%;
+        height: 510px;
+    }
+
+    .head-box {
+        width: 85%;
+        margin: 15px auto;
+        padding: 0;
+
+    }
+
+    /* Home page video */
+    #gameplay-trailer {
+        width: 650px;
+        height: 350px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+}
 
 /* Media Queries */
 
-/* For Large to medium size sreens 1205px wide and down */
-Media screen sizes @media screen and (max-width: 1205px) {
+/* For Large screens of 1200px wide and up */
+/* Media screen sizes  */
+
+/* @media screen and (max-width: 1200px) {
 
     /* Home Page */
-
-    /* #title-image {
-        width: 65%;
-        height: 1200px;
-    } */
-
-    .nav-bar {}
-
-    .head-box {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-        padding: 0;
-
-    }
-
-    .home-box {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    #gameplay-trailer iframe {
-        width: 650px;
-        height: 350px;
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    /* #gameplay-trailer {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-
-    } */
-
-
-    /* footer {
-        width: 65%;
-        height: 1200px;
-        padding: 0;
-    } */
+/* 
+#title-image {
+    width: 100%;
+    height: 400px;
 }
 
-@media screen and (max-width: 950px) {
-    .footer {
+.head-box {
+    width: 85%;
+    margin: 15px auto;
+    padding: 0;
+
+}
+
+.home-box {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#gameplay-trailer iframe {
+    width: 650px;
+    height: 350px;
+}
+
+#gameplay-trailer {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+} */
+
+
+/* footer {
         width: 65%;
         height: 1200px;
         padding: 0;
-    }
-}
-
-
-/* .footer {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
     } */
+
+
+/* @media screen and (max-width: 950px) {
+    
+} */
