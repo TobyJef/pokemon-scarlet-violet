@@ -106,7 +106,6 @@ header {
 .home-box {
     height: 350px;
     width: 500px;
-
 }
 
 /* Home page video */
@@ -114,6 +113,13 @@ header {
     position: relative;
     left: 715px;
     bottom: 180px;
+    width: 650px;
+    height: 350px;
+}
+
+#gameplay-trailer iframe {
+    width: 650px;
+    height: 350px;
 }
 
 .text-spacing {
@@ -506,8 +512,62 @@ footer {
     color: white
 }
 
-/* Media screen sizes */
-/* @media screen and (max-width: 1200px) {
+
+/* Media Queries */
+
+/* For Large to medium size sreens 1205px wide and down */
+Media screen sizes @media screen and (max-width: 1205px) {
+
+    /* Home Page */
+
+    /* #title-image {
+        width: 65%;
+        height: 1200px;
+    } */
+
+    .nav-bar {}
+
+    .head-box {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .home-box {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #gameplay-trailer iframe {
+        width: 650px;
+        height: 350px;
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    /* #gameplay-trailer {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+
+    } */
+
+
+    /* footer {
+        width: 65%;
+        height: 1200px;
+        padding: 0;
+    } */
+}
+
+@media screen and (max-width: 950px) {
     .footer {
         width: 65%;
         height: 1200px;
@@ -515,12 +575,11 @@ footer {
     }
 }
 
-@media screen and (max-width: 950px) {
-    .footer {
+
+/* .footer {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }
-/**/
+    } */
