@@ -81,8 +81,7 @@ header {
 /* Home page main text */
 
 .head-box {
-    height: 100px;
-    width: 100%
+    height: 110px;
 }
 
 .head-box h1 {
@@ -97,12 +96,14 @@ header {
     width: 92%;
     margin: 0 auto;
     word-spacing: 0.2rem;
-
+    font-size: larger;
 }
 
 .home-box {
     height: 350px;
-    width: 500px;
+    padding-top: 50px;
+    line-height: 25px;
+    /* width: 500px; */
 }
 
 /* Home page video */
@@ -519,20 +520,20 @@ footer {
 
     #title-image {
         width: 100%;
-        height: 510px;
+        height: 400px;
     }
 
     .head-box {
-        width: 85%;
-        margin: 15px auto;
-        padding: 0;
+        width: 92%;
+        margin: 0 auto;
+        padding-top: 25px;
 
     }
 
     /* Home page video */
     #gameplay-trailer {
         width: 650px;
-        height: 350px;
+        /* height: 350px; */
         margin: 0 auto;
         padding: 20px;
     }
