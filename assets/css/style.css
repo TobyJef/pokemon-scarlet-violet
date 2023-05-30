@@ -155,9 +155,11 @@ header {
 #exclusive-text-middle {
     position: relative;
     left: 30px;
-    top: 50px;
+    top: 30px;
     width: 55%;
     font-size: large;
+    padding-bottom: 25px;
+    line-height: 1.4rem;
 }
 
 #exclusive-text-bottom {
@@ -182,7 +184,7 @@ header {
 .under-text {
     position: relative;
     font-size: large;
-    bottom: 330px;
+    bottom: 345px;
     left: 30px;
     height: 280px;
     width: 95%;

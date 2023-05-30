@@ -20,6 +20,8 @@ The navigation bar has been designed to give a clear and easy directions to and 
 
 url('assets/images/nav-bar.webp')
 
+<!-- Home Page README -->
+
 ## Home Page
 
 ### Main image
@@ -42,7 +44,11 @@ There is also a paragraph advising the user what to expect in each segment of th
 
 url('assets/images/homepage-bottom.webp')
 
+<!-- New Features README -->
+
 # New Features
+
+This page is dedicated to explaining some of the new features added from previous Pokemon Games and also the differences between the two versions of the game.
 
 ## Opening Thoughts and Open World
 
@@ -72,4 +78,23 @@ url('assets/images/features-middle.webp')
 
 ## Tera Raids
 
-In this section placed underneath of the Exclusive Pokemon text and styled to the left of the Exclusive Pokemon image. I review Tera Raids one of the new statement features of the game.
+In this section placed underneath of the Exclusive Pokemon text and styled to the left of the Exclusive Pokemon image. I review Tera Raids one of the new statement features of the game. A new battle system that sets players against Pokemon of varying difficulty from One star to Six stars, with One star raids being the easiest in difficulty. There are also occassional limited time event Seven Star raids that feature a returning Pokemon from a previous title, but with a new elemental type. The raids of increased difficulty have been designed to encourage players to interact with the games online elements and take on the raids together.
+
+## Picnics and Union Circle
+
+### Sandwiches and more
+
+A two paragraph review of the new picnic game mechanic that allows for players to create sandwiches that allow for different game enhancements such as increasing the chances of finding shiny Pokemon or increasing the rate at which Pokemon eggs hatch.
+Regarding Pokemon eggs, picnics for this generation atleast replace the older game mechanic of the Pokemon Day Care. It allows for a more flexible way of breeding Pokemon and collecting the eggs.
+
+### Union Circle
+
+A brief explanation on a brand new multiplayer feature that allows for up to four players to simaltaniously connect to the game and explore the region together.
+
+url('assets/images/features-bottom.webp')
+
+<!-- Review README -->
+
+# Review
+
+This page is a space for users to read an honest and unbiased review of the latest game. Good and bad points an what could of been done differently.
