@@ -15,7 +15,6 @@
 body {
     background-color: rgba(224, 237, 245, 0.8);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* min-height: 1200px; */
 }
 
 /* Font size */
@@ -33,7 +32,6 @@ li {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    /* padding-left: 10px; */
     padding: 50px;
     background-color: #282828;
 }
@@ -103,10 +101,8 @@ header {
 }
 
 .home-box {
-    /* height: 350px; */
     padding-top: 50px;
     line-height: 25px;
-    /* width: 500px; */
 }
 
 /* Home page video */
@@ -518,6 +514,67 @@ footer {
 }
 
 /* Home Page media Query */
+
+/* 4k Screen sizes 2560px */
+@media screen and (max-width:2560px) {
+    .nav-bar {
+        background-color: firebrick;
+        text-align: center;
+        height: 55px;
+        letter-spacing: 10px;
+        padding-top: 25px;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        color: white;
+        font-size: xx-large;
+    }
+
+    #title-image {
+        height: 866px;
+        width: 100%;
+        background: url(../images/pokemon-titles.webp) no-repeat;
+        background-size: cover;
+    }
+
+    .head-box {
+        height: 110px;
+        padding-left: 50px;
+        padding-top: 50px;
+        font-size: xx-large;
+    }
+
+    #game-overview {
+        width: 92%;
+        margin: 0 auto;
+        word-spacing: 0.2rem;
+        font-size: xx-large;
+        height: 775px;
+        padding-bottom: 45px;
+        line-height: 3rem;
+    }
+
+    .social-media {
+        background-color: blueviolet;
+        text-align: center;
+        height: 45px;
+        letter-spacing: 5px;
+        padding-top: 14px;
+    }
+
+    .social-media a {
+        text-decoration: none;
+        color: white;
+        font-size: xx-large;
+    }
+
+    .social-media-bottom a {
+        text-decoration: none;
+        color: white;
+        font-size: xx-large;
+    }
+}
 
 /* Screen sizes up to 1600px */
 @media screen and (max-width: 1600px) {
