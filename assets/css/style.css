@@ -156,7 +156,7 @@ header {
     position: relative;
     left: 30px;
     top: 50px;
-    width: 50%;
+    width: 55%;
     font-size: large;
 }
 
@@ -164,7 +164,7 @@ header {
     position: relative;
     left: 30px;
     top: -200px;
-    width: 50%;
+    width: 55%;
     font-size: large;
 }
 
@@ -176,6 +176,7 @@ header {
     position: relative;
     bottom: 525px;
     padding-right: 15px;
+    margin-top: 65px;
 }
 
 .under-text {

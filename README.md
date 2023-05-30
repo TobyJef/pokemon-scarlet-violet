@@ -51,3 +51,25 @@ The top of the New Features page contains three paragraphs explaining what new f
 Following on there is a short paragraph review the games open world mechanic, and an accompanying image of the full map of the Paldea region, taking in game from my own copy of the game.
 
 url('assets/images/features-top.webp')
+
+## Gym Battles and Gym Challenges
+
+A review of the gameplay about the Pokemon Gyms and the Gym challenges.
+
+Due to the nature of the content it may contain spoilers to those who have not yet played the game, so specific details have been spared for the benefit of those readers.
+
+url('assets/images/features-gym.webp')
+
+## Exclusive Pokemon
+
+On larger screens the Exclusive Pokemon content text and image has been split to share the screen to accomodate the image height which shows the Pokemon that are exclusive to each game.
+
+The text content covers how many exclusive Pokemon are within each game and details how they can be obtained.
+
+The image styled to the right of the text content shows the list of what Pokemon are avaiable to which game and an image of the Pokemon or the Pokemons fully evolved form.
+
+url('assets/images/features-middle.webp')
+
+## Tera Raids
+
+In this section placed underneath of the Exclusive Pokemon text and styled to the left of the Exclusive Pokemon image. I review Tera Raids one of the new statement features of the game.
