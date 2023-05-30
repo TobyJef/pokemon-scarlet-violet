@@ -39,3 +39,15 @@ The videos posted to the site have been from The Official  [Pokemon UK Youtube c
 The final segement of the article contains opening thoughts on the state of the Pokemon Franchise and my experience of the game and why the site user shoudd use the site.
 
 There is also a paragraph advising the user what to expect in each segment of the overall website.
+
+url('assets/images/homepage-bottom.webp')
+
+# New Features
+
+## Opening Thoughts and Open World
+
+The top of the New Features page contains three paragraphs explaining what new features has been added to Pokemon Scarlet and Violet, what has been carried over and improved and what differences are to be found between each edition of the game.
+
+Following on there is a short paragraph review the games open world mechanic, and an accompanying image of the full map of the Paldea region, taking in game from my own copy of the game.
+
+url('assets/images/features-top.webp')
