@@ -517,6 +517,7 @@ footer {
 /* From smallest to larget screens */
 
 /* Screen sizes of 319px and above */
+/* Small phone screens */
 
 @media screen and (min-width: 319px) {
     body {
@@ -564,6 +565,7 @@ footer {
     #gameplay-trailer {
         width: 90%;
         padding: 0px;
+        height: 163px;
     }
 
     #gameplay-trailer iframe {
@@ -575,8 +577,9 @@ footer {
         width: 93%;
         margin: 0 auto;
         word-spacing: 0.2rem;
-        padding-bottom: 45px;
+        padding-bottom: 35px;
         text-align: center;
+        height: 100%
     }
 
     .social-media {
@@ -593,7 +596,111 @@ footer {
         letter-spacing: 1px;
         padding-top: 10px;
     }
+
+    footer {
+        height: 100px;
+        background-color: blueviolet;
+        width: 100%;
+    }
 }
+
+/* Screen sizes of 374px and above */
+/* Medium phone screens */
+
+@media screen and (min-width:374px) {
+
+    #site-name {
+        font-size: 35px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .nav-bar a {
+        font-size: large;
+    }
+
+    #title-image {
+        height: 127px;
+    }
+
+    #gameplay-trailer {
+        width: 95%;
+        padding: 0px;
+        height: 200px;
+    }
+}
+
+/* Screen sizes of 424px and above */
+/* Large phone screens */
+
+@media screen and (min-width:424px) {
+
+    #title-image {
+        height: 144px;
+    }
+
+    .head-box {
+        padding-top: 15px;
+        width: 93%;
+        height: 190px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/* Screen sizes of 767px and above */
+/* Tablet size screens */
+
+@media screen and (min-width:767px) {
+
+    p {
+        font-size: x-large;
+    }
+
+    #site-name {
+        font-size: 50px;
+    }
+
+    .nav-bar {
+        background-color: firebrick;
+        text-align: center;
+        height: 30px;
+        letter-spacing: 3px;
+        padding-top: 18px;
+        font-size: larger;
+        padding-bottom: 15px;
+    }
+
+    .nav-bar a {
+        font-size: larger;
+    }
+
+    #title-image {
+        height: 260px;
+    }
+
+    .head-box p {
+        font-size: x-large;
+    }
+
+    #gameplay-trailer {
+        width: 95%;
+        height: 410px;
+    }
+
+    #game-overview {
+        width: 90%;
+        font-size: x-large;
+    }
+
+    .home-box {
+        padding-top: 50px;
+        line-height: 30px;
+    }
+}
+
+
+
 
 /* 4k Screen sizes 2560 x 1261px */
 
