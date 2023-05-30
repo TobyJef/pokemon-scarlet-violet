@@ -134,17 +134,16 @@ header {
     background: url('../images/paldea-map.webp') no-repeat;
     height: 400px;
     position: relative;
-    left: 400px;
+    left: 250px;
     top: 10px;
     background-size: 700px;
+    width: 60%
 }
 
 /* Version excluisve image */
 
 .top-text {
-    position: relative;
     margin: 20px;
-    width: 1325.6px;
 }
 
 .exclusive-box {
@@ -175,15 +174,17 @@ header {
     float: right;
     position: relative;
     bottom: 525px;
+    padding-right: 15px;
 }
 
 .under-text {
     position: relative;
     font-size: large;
-    bottom: 345px;
+    bottom: 330px;
     left: 30px;
     height: 280px;
-    width: 1325.6px;
+    width: 95%;
+    padding-top: 20px;
 }
 
 
