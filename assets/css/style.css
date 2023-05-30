@@ -514,9 +514,90 @@ footer {
 }
 
 /* Home Page media Query */
+/* From smallest to larget screens */
 
-/* 4k Screen sizes 2560px */
-@media screen and (max-width:2560px) {
+/* Screen sizes of 319px and above */
+
+@media screen and (min-width: 319px) {
+    body {
+        background-color: red;
+    }
+
+    #site-name {
+        font-size: 35px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 25px;
+        background-color: #282828;
+    }
+
+    .nav-bar {
+        background-color: firebrick;
+        text-align: center;
+        height: 40px;
+        letter-spacing: 3px;
+        padding-top: 15px;
+        font-size: smaller;
+        padding-bottom: 15px;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+    }
+
+
+    #title-image {
+        width: 100%;
+        height: 108px;
+    }
+
+    .head-box {
+        padding-top: 15px;
+        width: 94%;
+        height: 275px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #gameplay-trailer {
+        width: 90%;
+        padding: 0px;
+    }
+
+    #gameplay-trailer iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    #game-overview {
+        width: 93%;
+        margin: 0 auto;
+        word-spacing: 0.2rem;
+        padding-bottom: 45px;
+        text-align: center;
+    }
+
+    .social-media {
+        background-color: blueviolet;
+        text-align: center;
+        height: 35px;
+        letter-spacing: 1px;
+    }
+
+    .social-media-bottom {
+        background-color: blueviolet;
+        text-align: center;
+        height: 30px;
+        letter-spacing: 1px;
+        padding-top: 10px;
+    }
+}
+
+/* 4k Screen sizes 2560 x 1261px */
+
+@media screen and (min-width:2560px) {
     .nav-bar {
         background-color: firebrick;
         text-align: center;
@@ -577,7 +658,7 @@ footer {
 }
 
 /* Screen sizes up to 1600px */
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
     .head-box {
         padding: 20px;
         height: 120px;
@@ -585,9 +666,11 @@ footer {
     }
 }
 
-/* Media Screen Sizes for up to 1200px */
+/* Large Laptop Screen sizes of 1440 x 1209px */
 
-@media screen and (max-width: 1200px) {
+/* Media Screen sizes for up to 1200px */
+
+@media screen and (min-width: 1200px) {
 
     #title-image {
         width: 100%;
@@ -611,7 +694,7 @@ footer {
 
 /* Screen sizes up to 1019px */
 
-@media screen and (max-width: 1019px) {
+@media screen and (min-width: 1019px) {
 
     #title-image {
         width: 100%;
@@ -639,75 +722,20 @@ footer {
         height: 450px;
         padding-bottom: 35px;
     }
+}
 
-    @media screen and (max-width: 960) {
-        body {
-            background-color: red;
-        }
+@media screen and (min-width: 960) {
 
-        #title-image {
-            width: 100%;
-            height: 325px;
-        }
-
-        .head-box {
-            padding-top: 10px;
-            width: 93%;
-            height: 110px;
-            margin: 0 auto;
-        }
+    #title-image {
+        width: 100%;
+        height: 325px;
     }
 
-    #gameplay-trailer {
-        width: 650px;
+    .head-box {
+        padding-top: 10px;
+        width: 93%;
+        height: 110px;
         margin: 0 auto;
-        padding: 20px;
-    }
-
-    #game-overview {
-        width: 92%;
-        margin: 0 auto;
-        word-spacing: 0.2rem;
-        font-size: larger;
-        height: 450px;
-        padding-bottom: 80px;
-    }
-
-    @media screen and (max-width: 375px) {
-        body {
-            background-color: red;
-        }
-
-        #site-name {
-            font-size: 35px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            padding: 50px;
-            background-color: #282828;
-        }
-
-        .nav-bar {
-            background-color: firebrick;
-            text-align: center;
-            height: 35px;
-            letter-spacing: 5px;
-            padding-top: 15px;
-            font-size: smaller;
-            padding-bottom: 15px
-        }
-
-
-        #title-image {
-            width: 100%;
-            height: 127px;
-        }
-
-        .head-box {
-            padding-top: 10px;
-            width: 93%;
-            height: 110px;
-            margin: 0 auto;
-        }
     }
 
     #gameplay-trailer {
