@@ -676,57 +676,58 @@ footer {
 @media screen and (min-width:767px) {
 
     .head-box {
-        height: 135px;
+        height: 155px;
     }
+}
 
-    p {
-        font-size: larger;
-    }
+p {
+    font-size: larger;
+}
 
-    #site-name {
-        font-size: 50px;
-    }
+#site-name {
+    font-size: 50px;
+}
 
-    .nav-bar {
-        background-color: firebrick;
-        text-align: center;
-        height: 30px;
-        letter-spacing: 3px;
-        padding-top: 18px;
-        font-size: larger;
-        padding-bottom: 15px;
-    }
+.nav-bar {
+    background-color: firebrick;
+    text-align: center;
+    height: 30px;
+    letter-spacing: 3px;
+    padding-top: 18px;
+    font-size: larger;
+    padding-bottom: 15px;
+}
 
-    .nav-bar a {
-        font-size: larger;
-    }
+.nav-bar a {
+    font-size: larger;
+}
 
-    #title-image {
-        height: 260px;
-    }
+#title-image {
+    height: 260px;
+}
 
-    .head-box p {
-        font-size: x-large;
-    }
+.head-box p {
+    font-size: x-large;
+}
 
-    #gameplay-trailer {
-        width: 95%;
-        height: 410px;
-    }
+#gameplay-trailer {
+    width: 95%;
+    height: 410px;
+}
 
-    #game-overview {
-        width: 90%;
-        font-size: x-large;
-    }
+#game-overview {
+    width: 90%;
+    font-size: x-large;
+}
 
-    .home-box {
-        padding-top: 50px;
-        line-height: 30px;
-    }
+.home-box {
+    padding-top: 50px;
+    line-height: 30px;
+}
 
-    footer {
-        font-size: medium;
-    }
+footer {
+    font-size: medium;
+}
 }
 
 /* Screen sizes of 1023 and above */
@@ -771,7 +772,7 @@ footer {
     #game-overview {
         width: 95%;
         height: 670px;
-        font-size: x-large;
+        font-size: large;
     }
 }
 
@@ -790,7 +791,7 @@ footer {
     }
 
     #title-image {
-        height: 488px;
+        height: 487px;
     }
 
     .head-box {
