@@ -1,3 +1,18 @@
+# IMPORTANT NOTE
+
+Acknowledgemnt and apology that project 1 submission is submitted in an unfinished state, due to immediate family illness. StudentCare informed. 
+
+
+# Technologies Used
+
+# Languages
+HTML
+CSS
+
+# Testing
+
+
+
 # Pokemon Scarlet and Pokemon Violet Fan Review
 
 This fan review of Pokemon Scarlet and Pokemon Violet webiste is a page of for fans of the Pokemon games franchise to read not only a review on the latest game release, but also to learn of the limited time raid events for exclusively "Marked" Pokemon, that would be unable to obtain in the base game.
@@ -18,7 +33,7 @@ The navigation bar is styled in a red background to represent the colour of sche
 
 The navigation bar has been designed to give a clear and easy directions to and an understanding of the different content that can be found across the site.
 
-url('assets/images/nav-bar.webp')
+url('assets/images/documentation/nav-bar.webp')
 
 <!-- Home Page README -->
 
@@ -56,7 +71,7 @@ The top of the New Features page contains three paragraphs explaining what new f
 
 Following on there is a short paragraph review the games open world mechanic, and an accompanying image of the full map of the Paldea region, taking in game from my own copy of the game.
 
-url('assets/images/features-top.webp')
+url('assets/images/documentation/features-top.webp')
 
 ## Gym Battles and Gym Challenges
 
@@ -64,7 +79,7 @@ A review of the gameplay about the Pokemon Gyms and the Gym challenges.
 
 Due to the nature of the content it may contain spoilers to those who have not yet played the game, so specific details have been spared for the benefit of those readers.
 
-url('assets/images/features-gym.webp')
+url('assets/images/documentation/features-gym.webp')
 
 ## Exclusive Pokemon
 
@@ -74,7 +89,7 @@ The text content covers how many exclusive Pokemon are within each game and deta
 
 The image styled to the right of the text content shows the list of what Pokemon are avaiable to which game and an image of the Pokemon or the Pokemons fully evolved form.
 
-url('assets/images/features-middle.webp')
+url('assets/images/documentation/features-middle.webp')
 
 ## Tera Raids
 
@@ -98,3 +113,21 @@ url('assets/images/features-bottom.webp')
 # Review
 
 This page is a space for users to read an honest and unbiased review of the latest game. Good and bad points an what could of been done differently.
+
+# Newsletter
+
+## Newstletter sign up
+
+A form encouraging site visitors to join the newsletter.
+
+## Raid events
+
+A section dedicated to showing what new events are taking place and a table showing raids that have finished
+
+## The Hidden Treasure of Area Zero
+
+An article used for educational purposes from Nintendo Life telling of the upcoming paid content also a trailer and accompanying image.
+
+# Footer
+
+Styled blueviolet to match the Violet colour scheme, lighter shade of purple used for accessibility.

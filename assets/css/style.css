@@ -609,6 +609,7 @@ footer {
 
 @media screen and (min-width:374px) {
 
+    /* Home page */
     #site-name {
         font-size: 35px;
         padding: 25px;
@@ -636,6 +637,252 @@ footer {
     footer li {
         font-size: medium;
     }
+
+    /* Features page */
+    #paldea-map {
+        background: url(../images/paldea-map.webp) no-repeat;
+        height: 195px;
+        position: relative;
+        left: 4px;
+        top: 10px;
+        background-size: 363px;
+        width: 100%;
+    }
+
+    #exclusive-text-middle {
+        position: relative;
+        left: 30px;
+        width: 85%;
+        padding-bottom: 25px;
+        line-height: 1.4rem;
+        height: 100%;
+    }
+
+    #exclusive-image {
+        background: url(../images/version-exclusives.webp) no-repeat;
+        height: 640px;
+        width: 91%;
+        bottom: 525px;
+        padding-right: 29px;
+        margin-top: 65px;
+    }
+
+    #exclusive-text-bottom {
+        position: relative;
+        left: 20px;
+        width: 85%;
+        height: 100%;
+    }
+
+    .under-text {
+        bottom: 345px;
+        left: 30px;
+        height: 100%;
+        width: 95%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .social-media {
+        background-color: blueviolet;
+        text-align: center;
+        height: 40px;
+        letter-spacing: 1px;
+    }
+
+    /* Review page */
+
+    .page-top-text {
+        padding: 25px;
+        width: 90%;
+    }
+
+    .review-box {
+        height: 100%;
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #koraidon-miraidon {
+        background: url(../images/box-legendaries.webp) no-repeat;
+        height: 385px;
+        position: relative;
+        top: 11px;
+        background-size: cover;
+        width: 85%;
+    }
+
+    .under-image-text {
+        position: relative;
+        width: 82%;
+        top: 20px;
+        left: 7px;
+        margin: 0 auto;
+    }
+
+    #starter-pokemon {
+        background: url(../images/paldea-starters.webp) no-repeat;
+        position: relative;
+        height: 500px;
+        top: 40px;
+        left: 45px;
+        width: 78%;
+    }
+
+    .review-content {
+        width: 80%;
+        position: relative;
+        left: 25px;
+        bottom: 20px;
+        height: 100%;
+    }
+
+    #tauros-image {
+        background: url(../images/tauros-battle.webp) no-repeat;
+        height: 285px;
+        top: 0px;
+        background-size: cover;
+        width: 95%;
+        margin: 0 auto
+    }
+
+    .tauros-box {
+        position: relative;
+        width: 85%;
+        margin: 0 auto;
+        top: 5px;
+    }
+
+    #end-content {
+        margin: 0 auto;
+        width: 85%;
+        height: 100%;
+        position: relative;
+        top: 2px;
+        text-align: center;
+    }
+
+    .review-footer {
+        height: 100px;
+        background-color: blueviolet;
+        width: 100%;
+        position: relative;
+        top: 5px;
+    }
+
+    /* Newletter page */
+
+    .form-space {
+        background-color: teal;
+        width: 100%;
+        height: 406px;
+    }
+
+    fieldset {
+        display: block;
+        margin-inline-start: -20px;
+        margin-inline-end: -91px;
+        padding-block-start: 0.35em;
+        padding-inline-start: 0.75em;
+        padding-inline-end: 0.75em;
+        padding-block-end: 0.625em;
+        border: 1px solid black;
+        font-weight: bold;
+    }
+
+    .text-input {
+        color: #282828;
+        width: 95%;
+        height: 24px;
+        border: 2px solid black;
+        position: relative;
+        top: 5px;
+        right: 5px;
+    }
+
+    .newsletter-form {
+        display: inline-block;
+        width: 25%;
+    }
+
+    .letsgo-button {
+        color: #282828;
+        width: 10%;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 5px;
+        top: -35px;
+        position: relative;
+        left: -15px;
+    }
+
+    .ongoing-event {
+        width: 85%;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    #chesnaught-raid {
+        background: url(../images/chesnaught-raid.webp) no-repeat;
+        visibility: hidden;
+    }
+
+    .strategy {
+        width: 85%;
+        height: 100%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    #chesnaught-unrivaled {
+        background: url(../images/chesnaught-unrivaled.webp) no-repeat;
+        height: 400px;
+        position: relative;
+        left: 11px;
+        top: 30px;
+    }
+
+    #appletun {
+        background: url(../images/appletun-build.webp) no-repeat;
+        height: 369px;
+        position: relative;
+        top: 35px;
+        left: 12px;
+    }
+
+    .whats-next {
+        text-align: center;
+        bottom: 350px;
+        padding-left: 1;
+    }
+
+    #raid-table {
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+
+    #dlc-overview {
+        height: 900px;
+        position: relative;
+        top: 30px;
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+        #dlc-banner {
+            background: url(../images/area-zero-dlc.webp) no-repeat;
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            position: relative;
+            top: 0px;
+        }
+
 }
 
 /* Screen sizes of 424px and above */
@@ -678,57 +925,57 @@ footer {
     .head-box {
         height: 155px;
     }
+
+    p {
+        font-size: larger;
+    }
+
+    #site-name {
+        font-size: 50px;
+    }
+
+    .nav-bar {
+        background-color: firebrick;
+        text-align: center;
+        height: 30px;
+        letter-spacing: 3px;
+        padding-top: 18px;
+        font-size: larger;
+        padding-bottom: 15px;
+    }
+
+    .nav-bar a {
+        font-size: larger;
+    }
+
+    #title-image {
+        height: 260px;
+    }
+
+    .head-box p {
+        font-size: x-large;
+    }
+
+    #gameplay-trailer {
+        width: 95%;
+        height: 410px;
+    }
+
+    #game-overview {
+        width: 90%;
+        font-size: x-large;
+    }
+
+    .home-box {
+        padding-top: 50px;
+        line-height: 30px;
+    }
+
+    footer {
+        font-size: medium;
+    }
 }
 
-p {
-    font-size: larger;
-}
-
-#site-name {
-    font-size: 50px;
-}
-
-.nav-bar {
-    background-color: firebrick;
-    text-align: center;
-    height: 30px;
-    letter-spacing: 3px;
-    padding-top: 18px;
-    font-size: larger;
-    padding-bottom: 15px;
-}
-
-.nav-bar a {
-    font-size: larger;
-}
-
-#title-image {
-    height: 260px;
-}
-
-.head-box p {
-    font-size: x-large;
-}
-
-#gameplay-trailer {
-    width: 95%;
-    height: 410px;
-}
-
-#game-overview {
-    width: 90%;
-    font-size: x-large;
-}
-
-.home-box {
-    padding-top: 50px;
-    line-height: 30px;
-}
-
-footer {
-    font-size: medium;
-}
-}
 
 /* Screen sizes of 1023 and above */
 /* Laptop screens */
@@ -808,9 +1055,9 @@ footer {
     }
 
     #gameplay-trailer {
-        width: 90%;
+        width: 65%;
         padding: 0px;
-        height: 720px;
+        height: 535px;
     }
 
     .text-spacing {
@@ -818,14 +1065,12 @@ footer {
     }
 
     #game-overview {
-        height: 835px;
-    }
-
-    #game-overview p {
-        font-size: xx-large;
+        width: 95%;
+        height: 620px;
+        font-size: larger;
     }
 
     footer li {
-        font-size: x-large;
+        font-size: larger;
     }
 }
