@@ -23,13 +23,47 @@ header a {
     color: white;
 }
 
+/* Nav bar styling here (some shade of red similar to scarlet */
+.nav-bar {
+    background-color: firebrick;
+    text-align: center;
+    height: 35px;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
 
+.nav-bar>li {
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
 
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
 
+/* Homepage styling here */
+
+/* Banner styling here */
+#title-image {
+    height: 510px;
+    width: 100%;
+    background: url('../images/pokemon-titles.webp') no-repeat;
+    background-size: cover;
+
+}
 
 
 
 /* Media Queries */
 
 /* High-Res Laptop or Desktop Screens 1920px and below */
-@media screen and (max-width:1920px) {}
+@media screen and (max-width:1920px) {
+    #title-image {
+        height: 60vh;
+        width: 100%;
+        background: url('../images/pokemon-titles.webp') no-repeat;
+        background-size: cover;
+    }
