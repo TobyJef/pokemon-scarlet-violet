@@ -55,6 +55,20 @@ header a {
 
 }
 
+/* Home page main text */
+
+.head-box {
+    height: 110px;
+}
+
+.head-box h1 {
+    font-size: xx-large;
+}
+
+.head-box p {
+    font-size: larger
+}
+
 
 
 /* Media Queries */
