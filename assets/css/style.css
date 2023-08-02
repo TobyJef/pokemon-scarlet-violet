@@ -1,12 +1,14 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: none;
-}
+} */
 
 body {
-    background-color: rgba(224, 237, 245, 0.8);
+    background-color: #282828;
+    /* background-color: rgba(224, 237, 245, 0.8); */
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
 }
 
 /* Logo styling here */
@@ -14,8 +16,7 @@ body {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    padding: 50px;
-    background-color: #282828;
+    padding: 10px;
 }
 
 header a {
@@ -23,13 +24,14 @@ header a {
     color: white;
 }
 
-/* Nav bar styling here (some shade of red similar to scarlet */
+/* Nav bar styling here (shade of red similar to scarlet) */
+
 .nav-bar {
     background-color: firebrick;
     text-align: center;
-    height: 35px;
+    height: 50px;
     letter-spacing: 5px;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .nav-bar>li {
@@ -41,7 +43,7 @@ header a {
 .nav-bar a {
     text-decoration: none;
     color: white;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 /* Homepage styling here */
@@ -52,7 +54,6 @@ header a {
     width: 100%;
     background: url('../images/pokemon-titles.webp') no-repeat;
     background-size: cover;
-
 }
 
 /* Home page main text */
@@ -69,15 +70,27 @@ header a {
     font-size: larger
 }
 
-
+.home-box {
+    background-color: rgba(224, 237, 245, 0.8);
+    font-size
+}
 
 /* Media Queries */
 
 /* High-Res Laptop or Desktop Screens 1920px and below */
 @media screen and (max-width:1920px) {
+
     #title-image {
         height: 60vh;
         width: 100%;
         background: url('../images/pokemon-titles.webp') no-repeat;
         background-size: cover;
+        margin-top: -16px;
     }
+
+    .head-box h1 {
+        font-size: 3rem;
+    }
+}
+
+;

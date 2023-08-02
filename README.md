@@ -1,6 +1,3 @@
-# IMPORTANT NOTE
-
-Acknowledgemnt and apology that project 1 submission is submitted in an unfinished state, due to immediate family illness. StudentCare informed. 
 
 
 # Technologies Used
