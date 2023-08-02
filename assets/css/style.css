@@ -6,7 +6,6 @@
 
 body {
     background-color: #282828;
-    /* background-color: rgba(224, 237, 245, 0.8); */
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
 }
@@ -46,7 +45,7 @@ header a {
     font-size: 1.5rem;
 }
 
-/* Homepage styling here */
+/* Home page styling here */
 
 /* Banner styling here */
 #title-image {
@@ -57,9 +56,8 @@ header a {
 }
 
 /* Home page main text */
-
 .head-box {
-    height: 110px;
+    text-align: center;
 }
 
 .head-box h1 {
@@ -71,8 +69,63 @@ header a {
 }
 
 .home-box {
-    background-color: rgba(224, 237, 245, 0.8);
-    font-size
+    background-color: rgba(242, 246, 248, 0.8);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Home page Youtube Video */
+
+.youtube-video {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 5px;
+}
+
+/* Footer styling here (shade of purple similar to violet) */
+
+footer {
+    background-color: blueviolet;
+    padding: 1px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.social-media {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.social-media>li {
+    color: white;
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white
+}
+
+.social-media-bottom {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.social-media-bottom>li {
+    color: white;
+    display: inline;
+    margin: 1%;
+    list-style-type: none;
+}
+
+.social-media-bottom a {
+    text-decoration: none;
+    color: white
 }
 
 /* Media Queries */
@@ -80,6 +133,7 @@ header a {
 /* High-Res Laptop or Desktop Screens 1920px and below */
 @media screen and (max-width:1920px) {
 
+    /*Home page */
     #title-image {
         height: 60vh;
         width: 100%;
@@ -90,6 +144,27 @@ header a {
 
     .head-box h1 {
         font-size: 3rem;
+    }
+
+    .head-box p {
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+
+    .home-text {
+        font-size: 1.5rem;
+        padding: 1px;
+        margin: 5px;
+        letter-spacing: 1px;
+    }
+
+    iframe {
+        width: 925px;
+        height: 500px;
+    }
+
+    footer {
+        font-size: 1.5rem;
     }
 }
 
