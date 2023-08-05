@@ -196,25 +196,7 @@ footer {
         bottom: 400px;
     }
 
-
     /* Review page styling here */
-
-    /* Image of Kiraidon and Miraidon */
-
-    #koraidon-miraidon {
-        background: url('../images/box-legendaries.webp') no-repeat;
-        height: 700px;
-        left: 300px;
-        position: relative;
-        background-size: cover;
-    }
-
-    .under-image-text {
-        position: relative;
-        width: 1372.5px;
-        top: -180px;
-        left: 30px;
-    }
 
     /* Starter Pokemon Image */
     /* Screenshot of the three starter pokemon,
@@ -223,15 +205,8 @@ footer {
         background: url('../images/paldea-starters.webp') no-repeat;
         position: relative;
         height: 400px;
-        top: -100px;
-        left: 250px;
-    }
-
-    .review-content {
-        width: 95%;
-        position: relative;
-        left: 25px;
-        bottom: 50px;
+        left: 500px;
+        width: 40%;
     }
 
     .tauros-box {
@@ -240,13 +215,22 @@ footer {
         width: 60%;
     }
 
+    .tauros-text {
+        bottom: 300px;
+    }
+
     #tauros-image {
         background: url('../images/tauros-battle.webp') no-repeat;
         height: 375px;
         left: 20px;
-        top: 400px;
+        top: 100px;
         background-size: cover;
         width: 35%;
+    }
+
+    #end-content {
+        position: relative;
+        bottom: 125px;
     }
 
     /* In game screenshots */
