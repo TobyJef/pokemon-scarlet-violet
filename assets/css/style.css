@@ -197,6 +197,57 @@ footer {
     }
 
 
+    /* Review page styling here */
+
+    /* Image of Kiraidon and Miraidon */
+
+    #koraidon-miraidon {
+        background: url('../images/box-legendaries.webp') no-repeat;
+        height: 700px;
+        left: 300px;
+        position: relative;
+        background-size: cover;
+    }
+
+    .under-image-text {
+        position: relative;
+        width: 1372.5px;
+        top: -180px;
+        left: 30px;
+    }
+
+    /* Starter Pokemon Image */
+    /* Screenshot of the three starter pokemon,
+    from the embedded youtube video in the home page  */
+    #starter-pokemon {
+        background: url('../images/paldea-starters.webp') no-repeat;
+        position: relative;
+        height: 400px;
+        top: -100px;
+        left: 250px;
+    }
+
+    .review-content {
+        width: 95%;
+        position: relative;
+        left: 25px;
+        bottom: 50px;
+    }
+
+    .tauros-box {
+        position: relative;
+        left: 730px;
+        width: 60%;
+    }
+
+    #tauros-image {
+        background: url('../images/tauros-battle.webp') no-repeat;
+        height: 375px;
+        left: 20px;
+        top: 400px;
+        background-size: cover;
+        width: 35%;
+    }
 
     /* In game screenshots */
     .screenshot {
