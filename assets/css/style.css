@@ -69,7 +69,7 @@ header a {
 }
 
 .home-box {
-    background-color: rgba(242, 246, 248, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
@@ -166,6 +166,68 @@ footer {
     footer {
         font-size: 1.5rem;
     }
+
+    /* Features page */
+
+    /* Game map image */
+    #paldea-map {
+        background: url('../images/paldea-map.webp') no-repeat;
+        background-size: 700px;
+        position: relative;
+        left: 500px;
+    }
+
+
+    /* Version excluisve image */
+
+    .top-text {
+        margin: 20px;
+        line-height: 1.5rem;
+    }
+
+    .exclusive-box {
+        width: 500px;
+        height: 600px;
+    }
+
+    #exclusive-text-middle {
+        position: relative;
+        left: 30px;
+        top: 30px;
+        width: 55%;
+        padding-bottom: 25px;
+        line-height: 1.4rem;
+    }
+
+    #exclusive-text-bottom {
+        position: relative;
+        left: 30px;
+        top: -200px;
+        width: 55%;
+    }
+
+    #exclusive-image {
+        background: url('../images/version-exclusives.webp') no-repeat;
+        height: 650px;
+        width: 35%;
+        float: right;
+        position: relative;
+        bottom: 525px;
+        padding-right: 15px;
+        margin-top: 65px;
+    }
+
+
+
+    /* In game screenshots */
+    .screenshot {
+        height: 400px;
+    }
+
+
+
+
+
 }
 
 ;
