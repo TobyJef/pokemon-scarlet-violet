@@ -128,6 +128,14 @@ footer {
     color: white
 }
 
+/* Newsletter styling */
+
+/* Form styling here */
+
+.form-space {
+    background-color: teal;
+}
+
 /* Media Queries */
 
 /* High-Res Laptop or Desktop Screens 1920px and below */
@@ -196,7 +204,7 @@ footer {
         bottom: 400px;
     }
 
-    /* Review page styling here */
+    /* Review page styling */
 
     /* Starter Pokemon Image */
     /* Screenshot of the three starter pokemon,
@@ -231,6 +239,66 @@ footer {
     #end-content {
         position: relative;
         bottom: 125px;
+    }
+
+
+    /* Newsletter styling */
+
+    /* Form styling */
+    /* Sign up form text */
+
+    .sign-up {
+        padding: 25px;
+    }
+
+    .sign-up>h1 {
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+
+    .sign-up>h2 {
+        text-align: center;
+        color: white;
+    }
+
+    .sign-up>p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: large;
+        color: white;
+    }
+
+    /* Sign up Form and Buttons */
+
+    .text-input {
+        color: #282828;
+        width: 50%;
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 5px;
+        position: relative;
+        left: 35px;
+        top: 5px;
+    }
+
+    .letsgo-button {
+        color: #282828;
+        width: 7%;
+        height: 24px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-left: 570px;
+    }
+
+    label h4 {
+        position: relative;
+        left: 35px;
+    }
+
+    .radio-button {
+        margin-top: 15px;
+        margin-left: 40px;
     }
 
     /* In game screenshots */
