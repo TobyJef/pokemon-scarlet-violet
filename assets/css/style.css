@@ -151,7 +151,7 @@ footer {
         letter-spacing: 1px;
     }
 
-    .home-text {
+    .main-text {
         font-size: 1.5rem;
         padding: 1px;
         margin: 5px;
@@ -177,9 +177,7 @@ footer {
         left: 500px;
     }
 
-
     /* Version excluisve image */
-
     .top-text {
         margin: 20px;
         line-height: 1.5rem;
