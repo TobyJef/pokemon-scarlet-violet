@@ -175,44 +175,25 @@ footer {
         background-size: 700px;
         position: relative;
         left: 500px;
+        width: 50%;
     }
 
     /* Version excluisve image */
-    .top-text {
-        margin: 20px;
-        line-height: 1.5rem;
-    }
-
-    .exclusive-box {
-        width: 500px;
-        height: 600px;
-    }
-
     #exclusive-text-middle {
-        position: relative;
-        left: 30px;
-        top: 30px;
-        width: 55%;
-        padding-bottom: 25px;
-        line-height: 1.4rem;
+        width: 60%;
     }
 
     #exclusive-text-bottom {
-        position: relative;
-        left: 30px;
-        top: -200px;
-        width: 55%;
+        width: 60%;
     }
 
     #exclusive-image {
         background: url('../images/version-exclusives.webp') no-repeat;
         height: 650px;
-        width: 35%;
+        width: 30%;
         float: right;
         position: relative;
-        bottom: 525px;
-        padding-right: 15px;
-        margin-top: 65px;
+        bottom: 400px;
     }
 
 
