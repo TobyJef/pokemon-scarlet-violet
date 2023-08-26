@@ -183,6 +183,81 @@ from the embedded youtube video in the home page  */
     background: url('../images/site-images/chesnaught-unrivaled.webp') no-repeat;
 }
 
+.whats-next {
+    position: relative;
+    bottom: 350px;
+}
+
+/* Base code for Table CSS used from HTML Essentials HTML Tables Challenge */
+
+fieldset {
+    display: block;
+    margin-inline-start: 35px;
+    margin-inline-end: 35px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 1.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 1.625em;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+.newsletter-form {
+    display: inline-block;
+    width: 33%;
+}
+
+/* Events */
+#events {
+    padding-left: 25px;
+}
+
+#events li {
+    list-style-type: none;
+}
+
+/* Raid Events Table */
+/* Events table styling used from Code Institute HTML Essentials Tables Challenge */
+
+#raid-table {
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f2f2f9;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr,
+th,
+td {
+    text-align: left;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.dlc-box {
+    position: relative;
+    bottom: 200px;
+}
+
+#dlc-trailer {
+    position: relative;
+    top: 145px;
+}
+
 /* Media Queries */
 
 /* High-Res Laptop or Desktop Screens 1920px and below */
@@ -357,6 +432,7 @@ from the embedded youtube video in the home page  */
         position: relative;
         top: 35px;
         left: 250px;
+        width: 35%;
     }
 
     /* In game screenshot of the caught Chesnaught the Unrivaled */
@@ -364,6 +440,7 @@ from the embedded youtube video in the home page  */
         position: relative;
         left: 990px;
         bottom: 365px;
+        width: 35%;
     }
 
 
