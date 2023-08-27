@@ -468,8 +468,13 @@ td {
         width: 55%;
     }
 
+    #tauros-image {
+        left: 5px;
+        width: 47%
+    }
+
     .tauros-box {
-        left: 650px;
+        left: 690px;
         width: 50%;
     }
 
@@ -492,9 +497,78 @@ td {
         left: 700px;
         width: 47%;
     }
-
-
-
 }
+
+@media screen and (max-width:1280px) {
+
+    /* New Features Page */
+    /* Game Map Image */
+    #paldea-map {
+        left: 275px;
+        width: 57%;
+    }
+
+    /* Exclusive Pokemon List Image */
+    #exclusive-image {
+        width: 35%;
+    }
+
+    /* Review Page */
+    #starter-pokemon {
+        left: 245px;
+        width: 61%;
+    }
+
+    /* Tauros image and side text content */
+
+    #tauros-image {
+        left: 0px;
+        width: 53%;
+    }
+
+    .tauros-box {
+        left: 680px;
+        width: 45%;
+    }
+
+    /* Newsletter Page */
+
+    /* Chesnaught Raid Screenshot */
+    #chesnaught-raid {
+        left: 290px;
+        width: 52%;
+    }
+
+    /* Appletun image screenshot */
+    #appletun {
+        left: 285px;
+        width: 53%;
+    }
+
+    /* Chesnaught the Unrivaled image */
+    #chesnaught-unrivaled {
+        left: 285px;
+        width: 53%;
+        bottom: 0px;
+    }
+
+    .whats-next {
+        bottom: 0px;
+    }
+
+    #raid-table {
+        bottom: 0px;
+    }
+
+    /* DLC Preview text & Youtube video trailer */
+    .dlc-box {
+        bottom: 0px;
+    }
+
+    #dlc-trailer {
+        top: 0px;
+    }
+}
+
 
 ;
