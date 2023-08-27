@@ -449,7 +449,7 @@ td {
 
 @media screen and (max-width:1440px) {
 
-    /*Home page */
+    /* Home page */
     /* Banner image */
     #title-image {
         height: 54vh;
@@ -569,6 +569,19 @@ td {
         top: 0px;
     }
 }
+
+@media screen and (max-width:1024px) {
+
+    /* Home Page */
+
+    /* Banner Image */
+    #title-image {
+        height: 25vh;
+    }
+}
+
+
+
 
 
 ;
