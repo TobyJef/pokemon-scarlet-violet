@@ -572,12 +572,81 @@ td {
 
 @media screen and (max-width:1024px) {
 
+    /* Site Name */
+
+    #site-name {
+        font-size: 3rem;
+    }
+
     /* Home Page */
 
     /* Banner Image */
     #title-image {
         height: 25vh;
     }
+
+    .nav-bar>li {
+        margin: 3%;
+    }
+
+    .main-text {
+        font-size: 1.2rem;
+    }
+
+    iframe {
+        width: 50vw;
+        height: 21vh;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+
+    /* New Features Page */
+
+    #paldea-map {
+        left: 140px;
+        width: 71%;
+    }
+
+    #exclusive-text-middle {
+        width: 55%;
+    }
+
+    #exclusive-image {
+        width: 39%;
+    }
+
+    #exclusive-text-bottom {
+        width: 55%;
+    }
+
+    /* Review Page */
+
+    #starter-pokemon {
+        left: 115px;
+        width: 77%;
+    }
+
+    #tauros-image {
+        left: 180px;
+        width: 66%;
+        top: 40px;
+    }
+
+    .tauros-box {
+        left: 0px;
+        width: 100%;
+        top: 100px;
+    }
+
+    #end-content {
+        top: 100px;
+    }
+
+
+
+
 }
 
 
