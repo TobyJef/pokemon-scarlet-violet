@@ -623,6 +623,10 @@ td {
 
     /* Review Page */
 
+    .review-page {
+        height: 300vh;
+    }
+
     #starter-pokemon {
         left: 115px;
         width: 77%;
@@ -644,11 +648,124 @@ td {
         top: 100px;
     }
 
+    /* Newsletter Page */
 
+    #chesnaught-raid {
+        left: 157px;
+        width: 66%;
+    }
 
+    #appletun {
+        left: 157px;
+        width: 67%;
+    }
 
+    #chesnaught-unrivaled {
+        left: 157px;
+        width: 67%;
+    }
 }
 
+@media screen and (max-width:810px) {
+
+    /* Home Page */
+
+    #site-name {
+        font-size: 2rem;
+    }
+
+    .nav-bar {
+        letter-spacing: 4px;
+    }
+
+    .head-box h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav-bar a {
+        font-size: 1.3rem;
+    }
+
+    .head-box h1 {
+        font-size: 1.8rem;
+    }
+
+    .head-box p {
+        font-size: 1.4rem;
+    }
+
+    .main-text {
+        font-size: 1.1rem;
+    }
+
+    /* New Features Page */
+
+    #paldea-map {
+        left: 45px;
+        width: 90%;
+    }
+
+    #exclusive-text-middle {
+        width: 100%;
+    }
+
+    #exclusive-text-bottom {
+        width: 40%;
+    }
+
+    #exclusive-image {
+        width: 50%;
+        bottom: 15px;
+    }
+
+    /* Review Page */
+
+    #starter-pokemon {
+        left: 12px;
+        width: 99%;
+    }
+
+    #tauros-image {
+        left: 75px;
+        width: 84%;
+    }
+
+    .review-page {
+        height: 390vh;
+    }
+
+    /* Newsletter Page */
+
+    fieldset {
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .text-input {
+        top: 0px;
+        left: 30px;
+        width: 80%;
+    }
+
+    .letsgo-button {
+        height: 45px
+    }
+
+    #chesnaught-raid {
+        left: 55px;
+        width: 84%;
+    }
+
+    #appletun {
+        left: 55px;
+        width: 85%;
+    }
+
+    #chesnaught-unrivaled {
+        left: 55px;
+        width: 85%;
+    }
+}
 
 
 
