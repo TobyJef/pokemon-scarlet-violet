@@ -767,7 +767,160 @@ td {
     }
 }
 
+@media screen and (max-width: 428px) {
 
+    /* Site Name */
 
+    #site-name {
+        text-align: center;
+        padding: 0px;
+    }
+
+    /* Home Page */
+
+    .nav-bar {
+        letter-spacing: 0px;
+        height: 40px;
+        padding-top: 20px;
+        text-align: start;
+    }
+
+    .nav-bar>li {
+        margin: 2%;
+    }
+
+    .nav-bar a {
+        font-size: 1.1rem;
+    }
+
+    #title-image {
+        height: 15vh;
+    }
+
+    .head-box h1 {
+        font-size: 1.5rem;
+    }
+
+    .head-box p {
+        font-size: 1.2rem;
+    }
+
+    .main-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .main-text {
+        font-size: 1rem;
+    }
+
+    iframe {
+        width: 81vw;
+    }
+
+    /* Features Page */
+
+    #paldea-map {
+        height: 0px;
+    }
+
+    #exclusive-image {
+        width: 99%;
+        bottom: 10px;
+    }
+
+    #exclusive-text-bottom {
+        width: 100%;
+    }
+
+    /* Review Page */
+
+    .main-text h2 {
+        font-size: 1.1rem;
+    }
+
+    #starter-pokemon {
+        height: 0px;
+    }
+
+    #tauros-image {
+        height: 0px;
+    }
+
+    .tauros-box {
+        top: -10px;
+    }
+
+    #end-content {
+        top: 0px;
+    }
+
+    .review-page {
+        height: 515vh;
+    }
+
+    /* Newsletter Page */
+
+    .sign-up {
+        padding: 5px;
+    }
+
+    .sign-up>h2 {
+        font-size: 1.2rem;
+    }
+
+    .sign-up>p {
+        font-size: 1rem;
+    }
+
+    .newsletter-form {
+        width: 95%;
+    }
+
+    .letsgo-button {
+        width: 15%;
+        margin-left: 325px;
+    }
+
+    #events {
+        padding-left: 0px;
+    }
+
+    .main-text h3 {
+        font-size: 1rem;
+    }
+
+    #chesnaught-raid {
+        height: 0px;
+        margin-top: -10px;
+    }
+
+    #appletun {
+        height: 0px;
+    }
+
+    #chesnaught-unrivaled {
+        height: 0px;
+    }
+
+    footer {
+        font-size: 1rem;
+        height: 14vh;
+    }
+
+    .social-media {
+        padding-top: 0px;
+    }
+
+    .social-media>li {
+        display: block;
+        margin: 2%;
+    }
+
+    .social-media-bottom>li {
+        display: block;
+        margin: 2%;
+    }
+
+}
 
 ;
