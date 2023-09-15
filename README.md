@@ -113,7 +113,7 @@ This page is a space for users to read an honest and unbiased review of the late
 
 # Newsletter
 
-## Newstletter sign up
+## Newsletter sign up
 
 A form encouraging site visitors to join the newsletter.
 
