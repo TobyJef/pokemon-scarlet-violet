@@ -1,64 +1,40 @@
+# POKEVIEWS 
 
+## A Pokemon Scarlet and Pokemon Violet Fan Review
 
-# Technologies Used
+Welcome to Pokeviews,
 
-# Languages
-HTML
-CSS
+This website is a fan review of Pokemon Scarlet and Pokemon Violet. This page is for fans of the Pokemon franchise, and casual fans of the Pokemon video game, who may not have kept up to date with all the latest releases. This site aims to provide a space to read my honest review on the latest games release, also strategies on the limited time raid events for the Mightiest Mark Pokemon that are unable to obtain otherwise in the base game.
 
-# Testing
+We also provide the opportunity for the our readers to sign up to the Pokeviews newletter by submitting their Email Address and Trainer IDs. To receive updates on the games and new mystery gift codes, this rewards players who submit these codes before the expiry date with gifts ranging from items to event Pokemon.
 
+A link to the live website can be found here: <https://tobyjef.github.io/pokemon-scarlet-violet/>
 
+# Site Overview and Features
 
-# Pokemon Scarlet and Pokemon Violet Fan Review
+## Navigation Bar
 
-This fan review of Pokemon Scarlet and Pokemon Violet webiste is a page of for fans of the Pokemon games franchise to read not only a review on the latest game release, but also to learn of the limited time raid events for exclusively "Marked" Pokemon, that would be unable to obtain in the base game.
+Underneath the site name, sits the navigation bar this directs users to the Home page, New Features page, Review page and Newsletter page.
 
-The page is aimed at Pokemon fans of all ages, such as the games itself. Users of this wesite aside from reading reviews on the games current and future released content, also have the opportunity to sign up to the website newletter by submitting their Email Address and Trainer IDs to recieve weekly updates on the games and news on new mystery gift codes that rewards players who submit the codes before the set expiry date with sets of common and uncommon items and also sometimes event pokemon.
+Users can also click on the Pokeviews name within the site logo to re-direct them back to the Home page.
 
-<!-- Add screenshots of finished media stylings -->
-
-<!-- Site Features -->
-
-## Navigation
-
-In the top left corner of our page features the website name: Pokeviews., a combination of the words Pokemon and Reviews. This also features a link that will redirect any page back to the Home page.
-
-Underneath our site logo and the main header image, sits the navigation bar that directs users to the Home page, New Features page, Review page and Newsletter sign up page.
-
-The navigation bar is styled in a red background to represent the colour of scheme of Pokemon Scarlet, with white text to give contrast.
-
-The navigation bar has been designed to give a clear and easy directions to and an understanding of the different content that can be found across the site.
+The navigation bar is styled in firebrick red. This colour was chosen to represent Pokemon Scarlet, the site links have been given white text and being set against the darker background helps give the navigation bar visual contrast and accessibility .
 
 url('assets/images/documentation/nav-bar.webp')
 
-<!-- Home Page README -->
-
 ## Home Page
 
-### Main image
-
-The opening of our home page begins with our banner image of the featured legendary Pokemon from the games. Koraidon is featured in Pokemon Scarlet and Miraidon in Pokemon Violet.
-
-Underneath there is an opening paragraph stating the sites goal.
+The opening of our home page begins with the sites hero image of the two legendary Pokemon from the Generation Nine games, Koraidon and Miraidon. Koraidon is exclusively found in Pokemon Scarlet and Miraidon is exclusive to Pokemon Violet.  
 
 url('assets/images/homepage-top.webp')
 
-### Posted video and article
+Below there is a short welcome message to visitors of the Pokeviews website, and a short section containing a brief on the sites goals and what the readers can expect to find within each page of the Pokeviews website. Finally found on the Pokeviews landing page is an embedded Youtube video from Pokemon UK Youtube channel of the final advertisement gameplay trailer before the games release date.
 
-Centered in the page under the sites opening statement there is an embedded Youtube video of the final gameplay trailer from Nintendo before the games release date.
-
-The videos posted to the site have been from The Official  [Pokemon UK Youtube channel](<https://www.youtube.com/@pokemon/videos>).
-
-The final segement of the article contains opening thoughts on the state of the Pokemon Franchise and my experience of the game and why the site user shoudd use the site.
-
-There is also a paragraph advising the user what to expect in each segment of the overall website.
+[Pokemon UK Youtube channel](<https://www.youtube.com/@pokemon/videos>).
 
 url('assets/images/homepage-bottom.webp')
 
-<!-- New Features README -->
-
-# New Features
+## New Features
 
 This page is dedicated to explaining some of the new features added from previous Pokemon Games and also the differences between the two versions of the game.
 
@@ -125,6 +101,19 @@ A section dedicated to showing what new events are taking place and a table show
 
 An article used for educational purposes from Nintendo Life telling of the upcoming paid content also a trailer and accompanying image.
 
-# Footer
+
+# Site Design
+
+Altough the Pokeviews website was solely written by myself, the site was purposely written in a style to give the sense to the reader that there is a team of individuals that help contribute content to the website.
 
 Styled blueviolet to match the Violet colour scheme, lighter shade of purple used for accessibility.
+
+
+# Technologies Used
+
+# Languages
+
+HTML
+CSS
+
+# Testing
