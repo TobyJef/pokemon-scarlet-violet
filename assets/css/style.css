@@ -441,6 +441,53 @@ td {
     }
 }
 
+@media screen and (max-width:1536px) {
+
+    #title-image {
+        height: 60vh;
+        width: 100%;
+        margin-top: -16px;
+    }
+
+    #paldea-map {
+        left: 345px;
+    }
+
+    #starter-pokemon {
+        left: 355px;
+        width: 51%;
+    }
+
+    .tauros-box {
+        left: 720px;
+        width: 52%;
+    }
+
+    #tauros-image {
+        left: 20px;
+        width: 44%;
+    }
+
+    #end-content {
+        bottom: 270px;
+    }
+
+    #chesnaught-raid {
+        left: 420px;
+        width: 43%;
+    }
+
+    #appletun {
+        left: 50px;
+        width: 44%;
+    }
+
+    #chesnaught-unrivaled {
+        left: 780px;
+        width: 44%;
+    }
+}
+
 @media screen and (max-width:1440px) {
 
     /* Home page */
