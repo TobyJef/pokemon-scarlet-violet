@@ -130,14 +130,14 @@ To deploy the live site on Github pages, the steps below are as follows:
 
 # Forking and Cloning
 
-## How to Fork the repository:
+## How to Fork the repository
 
 - Log into Github.
 - Go to the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>)
 - Click the Fork button found on the right of the page underneath the upper navigation bar.
   ![Forking](assets/images/documentation/pokeviews-forking.webp)
 
-## How to Clone the repository:
+## How to Clone the repository
 
 - Log into GitHub.
 - Go to the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>)

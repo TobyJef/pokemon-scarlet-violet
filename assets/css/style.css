@@ -52,7 +52,7 @@ header a {
     text-align: center;
 }
 
-.head-box h1 {
+.head-box h2 {
     font-size: xx-large;
 }
 
@@ -266,7 +266,7 @@ td {
         margin-top: -16px;
     }
 
-    .head-box h1 {
+    .head-box h2 {
         font-size: 3rem;
     }
 
@@ -362,13 +362,14 @@ td {
         margin-bottom: 15px;
     }
 
-    .sign-up>h1 {
+    .sign-up>h2 {
         text-transform: uppercase;
         text-align: center;
         color: white;
+        font-size: xx-large;
     }
 
-    .sign-up>h2 {
+    .sign-up>h3 {
         text-align: center;
         color: white;
     }
@@ -444,7 +445,7 @@ td {
 @media screen and (max-width:1536px) {
 
     #title-image {
-        height: 60vh;
+        height: 76vh;
         width: 100%;
         margin-top: -16px;
     }
@@ -719,7 +720,7 @@ td {
         letter-spacing: 4px;
     }
 
-    .head-box h1 {
+    .home-box h3 {
         font-size: 1.5rem;
     }
 
@@ -727,7 +728,7 @@ td {
         font-size: 1.3rem;
     }
 
-    .head-box h1 {
+    .head-box h2 {
         font-size: 1.8rem;
     }
 
@@ -838,7 +839,7 @@ td {
         height: 15vh;
     }
 
-    .head-box h1 {
+    .head-box h2 {
         font-size: 1.5rem;
     }
 
@@ -846,7 +847,7 @@ td {
         font-size: 1.2rem;
     }
 
-    .main-text h2 {
+    .main-text h3 {
         font-size: 1.3rem;
     }
 
@@ -875,7 +876,7 @@ td {
 
     /* Review Page */
 
-    .main-text h2 {
+    .main-text h3 {
         font-size: 1.1rem;
     }
 
@@ -905,7 +906,7 @@ td {
         padding: 5px;
     }
 
-    .sign-up>h2 {
+    .sign-up>h3 {
         font-size: 1.2rem;
     }
 
@@ -962,5 +963,7 @@ td {
         margin: 2%;
     }
 }
+
+;
 
 ;
