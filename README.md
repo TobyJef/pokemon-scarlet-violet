@@ -21,7 +21,7 @@ Users can also click on the Pokeviews name within the site logo to re-direct the
 
 The navigation bar is styled in firebrick red. This colour was chosen to represent Pokemon Scarlet, the site links have been given white text and being set against the darker background helps give the navigation bar visual contrast and accessibility.
 
-url('assets/images/documentation/nav-bar.webp')
+![Pokeviews Homepage]url('assets/images/documentation/nav-bar.webp')
 
 ## Home Page
 
@@ -31,7 +31,7 @@ The opening of our home page begins with the sites hero image of the two legenda
 
 Below there is a short welcome message to visitors of the Pokeviews website, and a short section containing a site preview statement on what the reader is to expect from visiting the Pokeviews website, and our and what can be found within each page from the navigation bar. Finally found on the Pokeviews landing page is an embedded Youtube video from Pokemon UK Youtube channel of the final advertisement gameplay trailer before the games release date.
 
-[Pokemon UK Youtube channel](<https://www.youtube.com/@pokemon/videos>).
+[Pokemon UK Youtube channel](https://www.youtube.com/@pokemon/videos/).
 
 ![Pokeviews Homepage]url('assets/images/homepage-bottom.webp')
 
@@ -104,6 +104,8 @@ Also there would be a plan to create a social media presence that readers would 
 
 - W3C CSS Validation Service
 
+- Google Developer tools Lighthouse report
+
 # Bugs
 
 # Deployment, Forking and Cloning
@@ -115,7 +117,7 @@ Also there would be a plan to create a social media presence that readers would 
 To deploy the live site on Github pages, the steps below are as follows:
 
 - Login into Github.
-- Go into the repository for this project, (https://github.com/TobyJef/pokemon-scarlet-violet)
+- Go into the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet/>)
 - Click the Settings button located on the upper navigation bar.
   ![Settings](assets/images/documentation/repository-settings.webp)
 - Locate and select Pages from the Code and automation section of the left hand navigation menu.
@@ -131,14 +133,14 @@ To deploy the live site on Github pages, the steps below are as follows:
 ## How to Fork the repository:
 
 - Log into Github.
-- Go to the repository for this project, (https://github.com/TobyJef/pokemon-scarlet-violet)
+- Go to the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>)
 - Click the Fork button found on the right of the page underneath the upper navigation bar.
   ![Forking](assets/images/documentation/pokeviews-forking.webp)
 
 ## How to Clone the repository:
 
 - Log into GitHub.
-- Go to the repository for this project, (https://github.com/TobyJef/pokemon-scarlet-violet)
+- Go to the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>)
 - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
   ![Cloning](assets/images/documentation/pokeviews-cloning.webp)
 - Open a terminal in your code editor type 'git clone' into the terminal and then paste the link you copied from the Github repository. Press enter to change the current working directory to the location you want to use for the cloned directory.
