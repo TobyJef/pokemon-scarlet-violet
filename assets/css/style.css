@@ -393,8 +393,8 @@ td {
         border: 2px solid black;
         border-radius: 5px;
         position: relative;
-        left: 35px;
-        top: 5px;
+        left: -30px;
+        top: 40px;
     }
 
     .letsgo-button {
@@ -406,14 +406,14 @@ td {
         margin-left: 570px;
     }
 
-    label h4 {
+    .input {
         position: relative;
-        left: 35px;
+        left: 20px;
     }
 
     .radio-button {
-        margin-top: 15px;
-        margin-left: 40px;
+        margin-top: 65px;
+        margin-left: 65px;
     }
 
     /* In game screenshots */
