@@ -75,6 +75,7 @@ header a {
 
 iframe {
     border-radius: 5px;
+    border: 0px;
 }
 
 /* Footer styling here (shade of purple similar to violet) */
@@ -287,6 +288,7 @@ td {
     iframe {
         width: 925px;
         height: 500px;
+        border: 0px;
     }
 
     footer {
@@ -639,6 +641,7 @@ td {
     iframe {
         width: 50vw;
         height: 21vh;
+        border: 0px;
     }
 
     footer {
@@ -858,6 +861,7 @@ td {
 
     iframe {
         width: 81vw;
+        border: 0px;
     }
 
     /* Features Page */
