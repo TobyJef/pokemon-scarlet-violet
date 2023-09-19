@@ -8,7 +8,8 @@ This website is a fan review of Pokemon Scarlet and Pokemon Violet. This page is
 
 We also provide the opportunity for the our readers to sign up to the Pokeviews newletter by submitting their Email Address and Trainer IDs. To receive updates on the games and new mystery gift codes, this rewards players who submit these codes before the expiry date with gifts ranging from items to event Pokemon.
 
-A link to the live website can be found here: <https://tobyjef.github.io/pokemon-scarlet-violet/>
+A link to the live website can be found here:
+[Link to the Pokeviews website](https://tobyjef.github.io/pokemon-scarlet-violet/)
 
 # Site Overview and Features
 
@@ -26,13 +27,13 @@ url('assets/images/documentation/nav-bar.webp')
 
 The opening of our home page begins with the sites hero image of the two legendary Pokemon from the Generation Nine games, Koraidon and Miraidon. Koraidon is exclusively found in Pokemon Scarlet and Miraidon is exclusive to Pokemon Violet.  
 
-url('assets/images/homepage-top.webp')
+![Pokeviews Homepage]('assets/images/homepage-top.webp')
 
 Below there is a short welcome message to visitors of the Pokeviews website, and a short section containing a site preview statement on what the reader is to expect from visiting the Pokeviews website, and our and what can be found within each page from the navigation bar. Finally found on the Pokeviews landing page is an embedded Youtube video from Pokemon UK Youtube channel of the final advertisement gameplay trailer before the games release date.
 
 [Pokemon UK Youtube channel](<https://www.youtube.com/@pokemon/videos>).
 
-url('assets/images/homepage-bottom.webp')
+![Pokeviews Homepage]url('assets/images/homepage-bottom.webp')
 
 ## New Features
 
@@ -40,11 +41,11 @@ The New Features page is dedicated to giving readers a quick description of the 
 
 Due to the nature of the content, it would of been a possibility that the content provided contained spoilers to those who have yet to play the game. So specific details have been spared for the benefit of those readers, and the information within the article is content that had been already shown or discussed in promotional material.
 
-url('assets/images/documentation/features-top.webp')
+![Pokeviews Homepage]url('assets/images/documentation/features-top.webp')
 
-url('assets/images/documentation/features-gym.webp')
+![Pokeviews Homepage]url('assets/images/documentation/features-gym.webp')
 
-url('assets/images/documentation/features-middle.webp')
+![Pokeviews Homepage]url('assets/images/documentation/features-middle.webp')
 
 url('assets/images/features-bottom.webp')
 
@@ -76,7 +77,9 @@ The articles found within the Pokeviews site have all been given the same backgr
 
 The accompanying images that sit either alongside or underneath the text of the articles were placed with consideration of the reader and flow of the articles.
 
-On larger screens the Exclusive Pokemon content text and image has been split to share the screen to accomodate the image height which shows the Pokemon that are exclusive to each game.
+On larger screens the Exclusive Pokemon content text and image has been split to share the screen to accomodate the image height which shows the Pokemon exclusive to each game.
+
+On smaller screens, some images have had to be repositioned from there orignal placement or removed completely due to the images original size.
 
 # Future Improvements
 
@@ -99,7 +102,7 @@ Also there would be a plan to create a social media presence that readers would 
 
 - W3C Markup Validation Service
 
-- W3C CSS Validation Service 
+- W3C CSS Validation Service
 
 # Bugs
 
@@ -112,7 +115,7 @@ Also there would be a plan to create a social media presence that readers would 
 To deploy the live site on Github pages, the steps below are as follows:
 
 - Login into Github.
-- Go into the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>)
+- Go into the repository for this project, (https://github.com/TobyJef/pokemon-scarlet-violet)
 - Click the Settings button located on the upper navigation bar.
   ![Settings](assets/images/documentation/repository-settings.webp)
 - Locate and select Pages from the Code and automation section of the left hand navigation menu.
@@ -128,15 +131,15 @@ To deploy the live site on Github pages, the steps below are as follows:
 ## How to Fork the repository:
 
 - Log into Github.
-- Go to the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>) 
+- Go to the repository for this project, (https://github.com/TobyJef/pokemon-scarlet-violet)
 - Click the Fork button found on the right of the page underneath the upper navigation bar.
-  ![Forking](assets/images/documentation/repository-forking.webp)
+  ![Forking](assets/images/documentation/pokeviews-forking.webp)
 
 ## How to Clone the repository:
 
 - Log into GitHub.
-- Go to the repository for this project, (<https://github.com/TobyJef/pokemon-scarlet-violet>)
+- Go to the repository for this project, (https://github.com/TobyJef/pokemon-scarlet-violet)
 - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-  ![Cloning](assets/images/documentation/repository-cloning.webp)
+  ![Cloning](assets/images/documentation/pokeviews-cloning.webp)
 - Open a terminal in your code editor type 'git clone' into the terminal and then paste the link you copied from the Github repository. Press enter to change the current working directory to the location you want to use for the cloned directory.
-  ![Github Terminal](assets/images/documentation/github-clone.webp)
+  ![Github Terminal](assets/images/documentation/pokeviews-clone.webp)
