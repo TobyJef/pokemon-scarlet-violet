@@ -150,6 +150,7 @@ from the embedded youtube video in the home page  */
 
 #tauros-image {
     background: url('../images/site-images/tauros-battle.webp') no-repeat;
+    position: relative;
 }
 
 /* Newsletter styling */
@@ -249,7 +250,7 @@ td {
 
 #dlc-trailer {
     position: relative;
-    top: 145px;
+    bottom: 85px;
 }
 
 /* Media Queries */
