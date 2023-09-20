@@ -316,8 +316,9 @@ td {
 
     #exclusive-image {
         height: 650px;
-        width: 30%;
+        width: 20%;
         float: right;
+        right: 200px;
         position: relative;
         bottom: 400px;
     }
@@ -448,9 +449,7 @@ td {
 @media screen and (max-width:1536px) {
 
     #title-image {
-        height: 76vh;
-        width: 100%;
-        margin-top: -16px;
+        height: 45vh;
     }
 
     #paldea-map {
@@ -696,6 +695,10 @@ td {
 
     /* Newsletter Page */
 
+    .letsgo-button {
+        height: 40px;
+    }
+
     #chesnaught-raid {
         left: 157px;
         width: 66%;
@@ -767,7 +770,7 @@ td {
     /* Review Page */
 
     #starter-pokemon {
-        left: 12px;
+        left: 5px;
         width: 99%;
     }
 

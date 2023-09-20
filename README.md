@@ -27,13 +27,11 @@ The navigation bar is styled in firebrick red. This colour was chosen to represe
 
 The opening of our home page begins with the sites hero image of the two legendary Pokemon from the Generation Nine games, Koraidon and Miraidon. Koraidon is exclusively found in Pokemon Scarlet and Miraidon is exclusive to Pokemon Violet.  
 
-![Pokeviews Homepage]('assets/images/homepage-top.webp')
+![Pokeviews Homepage]('assets/images/documentation/homepage-hero.webp')
 
 Below there is a short welcome message to visitors of the Pokeviews website, and a short section containing a site preview statement on what the reader is to expect from visiting the Pokeviews website, and our and what can be found within each page from the navigation bar. Finally found on the Pokeviews landing page is an embedded Youtube video from Pokemon UK Youtube channel of the final advertisement gameplay trailer before the games release date.
 
 [Pokemon UK Youtube channel](https://www.youtube.com/@pokemon/videos/).
-
-![Pokeviews Homepage]url('assets/images/homepage-bottom.webp')
 
 ## New Features
 
@@ -41,27 +39,29 @@ The New Features page is dedicated to giving readers a quick description of the 
 
 Due to the nature of the content, it would of been a possibility that the content provided contained spoilers to those who have yet to play the game. So specific details have been spared for the benefit of those readers, and the information within the article is content that had been already shown or discussed in promotional material.
 
-![Pokeviews Homepage]url('assets/images/documentation/features-top.webp')
-
-![Pokeviews Homepage]url('assets/images/documentation/features-gym.webp')
-
-![Pokeviews Homepage]url('assets/images/documentation/features-middle.webp')
-
-url('assets/images/features-bottom.webp')
+![Pokeviews New Features page]('assets/images/documentation/features-map.webp')
 
 ## Review
 
 The Review page is a space for users to read an overall honest and unbiased review of the game and it's content. Good and bad points and what could of been done differently.
 
+![Pokeviews Review page]('assets/images/documentation/review-battle.webp')
+
 ## Newsletter
 
 Within the Newsletter page, there is a mix of content that can be found here. From the sign up form for the newsletter, a strategy on how to defeat the Tera raid, which is to be updated as and when new raids take place. A table showing previous raids and a short preview of the upcoming additional paid content followed by the promotional trailer.
+
+![Pokeviews Newsletter page]('assets/images/documentation/newsletter-signup.webp')
+![Pokeviews Newsletter page]('assets/images/documentation/newsletter-strategy.webp')
+![Pokeviews Newsletter page]('assets/images/documentation/raid-table.webp')
 
 ## Footer
 
 The footer was given the Blue Violet CSS styling to represent the colour scheme of Pokemon Violet. The site links have been given white text and being set against the darker background helps give the footer visual contrast and accessibility.
 
 Included within the footer are social media links for Facebook, Twitter, Instagram and also Youtube.
+
+![Pokeviews Homepage]('assets/images/documentation/homepage-footer.webp')
 
 # Site Design
 
@@ -81,6 +81,10 @@ On larger screens the Exclusive Pokemon content text and image has been split to
 
 On smaller screens, some images have had to be repositioned from there orignal placement or removed completely due to the images original size.
 
+CSS and media query design for Pokeviews was carried out using the Developer tools on the Firefox browser.
+
+![Image size issues]('assets/images/documentation/image-sizing.webp')
+
 # Future Improvements
 
 It would be my intention that the pokeviews website would continue to be updated with additional and revised content. I would plan to add a review of both parts of the additional paid content for the game once they have been released and then completed by myself.
@@ -92,6 +96,8 @@ There are a few images that have been excluded from some of the smaller pixel me
 
 Also there would be a plan to create a social media presence that readers would be directed to via the links in the footer, to give fans of the Pokeviews site a chance to connect and interact with one another and also myself.
 
+Aim to improve Google Lighthouse scores on Home and Newsletter pages.
+
 # Technologies Used
 
 - HTML
@@ -100,13 +106,41 @@ Also there would be a plan to create a social media presence that readers would 
 
 # Testing
 
-- W3C Markup Validation Service
+## W3C Markup Validation Service
 
-- W3C CSS Validation Service
+- No issues found across all pages.
 
-- Google Developer tools Lighthouse report
+![HTML Validation Certificate]('assets/images/documentation/homepage-validation.webp')
+![HTML Validation Certificate]('assets/images/documentation/features-validation.webp')
+![HTML Validation Certificate]('assets/images/documentation/review-validation.webp')
+![HTML Validation Certificate]('assets/images/documentation/newsletter-validation.webp')
+
+## W3C CSS Validation Service
+
+- No issues found.
+
+![CSS Validation Certificate]('assets/images/documentation/css-validation.webp')
+
+## Google Developer tools Lighthouse reports
+
+- Overall across all pages good testing scores.
+  
+Small issues on homepage and newsletter page regarding certain image quality.
+
+![GOOGLE Lighthouse Scores]('assets/images/documentation/homepage-lighthouse.webp')
+![GOOGLE Lighthouse Scores]('assets/images/documentation/features-lighthouse.webp')
+![GOOGLE Lighthouse Scores]('assets/images/documentation/review-lighthouse.webp')
+![GOOGLE Lighthouse Scores]('assets/images/documentation/newsletter-lighthouse.webp')
 
 # Bugs
+
+- Through the HTML validation process, an error was detected with the iframes used on the Homepage and Newsletter page, due to the embedded videos containing frameborder attributes. Following an online search a solution to the issue was found via Stackoverflow. Which required the frameborder attribute to be removed from the iframe, and to add "border: 0px;" via CSS to correct the issue. Once the suggested fix was established and the update pushed to Github, the errors were removed.
+
+- An error was found with the Instagram aria label used within the footer of the Review Page, this error was caused to a spelling oversight which had been spelt ariak.
+
+- Warnings were detected due to articles and sections, not being given headings, even though the div below was assigned heading. Through trial and error, upon removing the section tags that directly followed an article tag the issue was resolved.
+
+- A parse error was detected when carrying out CSS validation. Through an online search, the most common answer to the issue was that there was no closing curly braces on a media query. However following a check through of my CSS and media queries, I could not locate any instances of a missing curly brace. More through luck than judgement I discovered that the parse error was caused by a semi colon at the end of the media queries. Once removed, the error was cleared.
 
 # Deployment, Forking and Cloning
 
@@ -145,3 +179,5 @@ To deploy the live site on Github pages, the steps below are as follows:
   ![Cloning](assets/images/documentation/pokeviews-cloning.webp)
 - Open a terminal in your code editor type 'git clone' into the terminal and then paste the link you copied from the Github repository. Press enter to change the current working directory to the location you want to use for the cloned directory.
   ![Github Terminal](assets/images/documentation/pokeviews-clone.webp)
+
+- Final commit of PP1 re-submission on the morning of 20/9/23.
